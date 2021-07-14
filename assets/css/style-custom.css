@@ -1,0 +1,12 @@
+.community-icon { width: 80%; height: 80%; }
+.community-social { padding-bottom: 0 !important; }
+.custom-partner-logo { margin-top: 30px !important; }
+.profile-link { background-color: #021136; width: 35px; height: 35px; border-radius: 50%; display: flex; justify-content: center; align-items: center; position: absolute; right: 0; bottom: 20px}
+
+.icon-space { display: inline;}
+.study-logo { margin-bottom: 20px }
+.term-of-use { text-align: left; }
+
+@media (min-width: 576px) { .icon-space { display: none; } .study-logo { margin-bottom: 0 } }
+
+@media (min-width: 768px) { .term-of-use { text-align: right; } }
