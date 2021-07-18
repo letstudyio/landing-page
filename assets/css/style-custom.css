@@ -7,6 +7,31 @@
 .study-logo { margin-bottom: 20px }
 .term-of-use { text-align: left; }
 
+.airdrop {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    background-color: white;
+    color: black;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 15px;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+}
+
+.airdrop-content {
+    display: flex;
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+}
+
 @media (min-width: 576px) { .icon-space { display: none; } .study-logo { margin-bottom: 0 } }
 
-@media (min-width: 768px) { .term-of-use { text-align: right; } }
+@media screen and (max-width: 5000px) and (min-width: 1600px) {
+    .airdrop { flex-direction: row; max-width: 40% !important; }
+}
+@media (min-width: 1200px) { .airdrop { flex-direction: row; max-width: 60%; align-items: center;} .airdrop-content { margin-top: 0; margin-bottom: 0; text-align: left } }
