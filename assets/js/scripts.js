@@ -1005,3 +1005,27 @@ NioApp = function (NioApp, $, window, document) {
 	return NioApp;
 }(NioApp, jQuery, window, document);
 /* END @iO */
+
+function numberWithCommas(num) {
+    return num.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+
+  (function ($, window, document) {
+    $("document").ready(function () {
+      $.get("https://api.app.letstudy.io/fund-statistic").done(function (data) {
+        if (!data) {
+          return;
+        }
+
+        var percent = Math.max(Math.round(Number(data.soldToken || 0) / Number(data.totalSupplyOfPhase || 0)), 5);
+        $("#lp__progress_bar").css("width", percent + "%");
+        $("#lp__phase_title").text(data.name || "");
+        $("#lp__raised_token").text(numberWithCommas(Number(data.soldToken || 0).toFixed(0)) + " Tokens");
+        $("#lp__target_token").text(numberWithCommas(Number(data.totalSupplyOfPhase || 0).toFixed(0)) + " Tokens");
+        $("#lp__raised_usd").text("$" + numberWithCommas(Number(data.soldTokenAsUSD || 0).toFixed(0)) + " USD");
+        $("#lp__target_usd").text("$" + numberWithCommas(Number(data.totalSupplyOfPhaseAsUSD || 0).toFixed(0)) + " USD");
+        $("#lp__total_raised_value").text("$" + numberWithCommas(Number(data.raisedFund || 0).toFixed(0)) + " USD");
+        $("#lp__upper").remove();
+      });
+    });
+  })(window.jQuery, window, document);
