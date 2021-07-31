@@ -139,13 +139,12 @@ p {
 
 .embed-container {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 51.35%;
   padding-top: 30px;
   height: 0;
   overflow: hidden;
-  background-color: #0e1766;
+  background: transparent;
   border-radius: 20px;
-  border: #0e1766 solid 10px;
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -197,7 +196,7 @@ p {
 
 .launchpad {
   position: relative;
-  margin-top: 10%;
+  margin-top: 48px;
   padding: 28px;
   color: #021136;
   background-color: #ffffff;
@@ -212,11 +211,7 @@ p {
   }
 
   .first__page .fp__right {
-    padding-top: 10%;
-  }
-
-  .launchpad {
-    margin-top: 20%;
+    padding-top: 20px;
   }
 
 }
