@@ -1018,8 +1018,12 @@ function numberWithCommas(num) {
         }
 
         var percent = Math.max(Math.round(Number(data.soldToken || 0) / Number(data.totalSupplyOfPhase || 0)), 5);
+        var increment =  Math.round(((Number(data.nextFundPrice) - Number(data.price)) / Number(data.nextFundPrice)) * 100);
+
         $("#lp__progress_bar").css("width", percent + "%");
         $("#lp__phase_title").text(data.name || "");
+        $("#lp__next_price").text("$" + numberWithCommas(Number(data.nextFundPrice || 0) + "") + " USD");
+        $("#lp__increase").text(increment + "%");
         $("#lp__raised_token").text(numberWithCommas(Number(data.soldToken || 0).toFixed(0)) + " Tokens");
         $("#lp__target_token").text(numberWithCommas(Number(data.totalSupplyOfPhase || 0).toFixed(0)) + " Tokens");
         $("#lp__raised_usd").text("$" + numberWithCommas(Number(data.soldTokenAsUSD || 0).toFixed(0)) + " USD");

@@ -213,7 +213,6 @@ p {
   .first__page .fp__right {
     padding-top: 20px;
   }
-
 }
 
 .launchpad .lp__upper {
@@ -388,6 +387,25 @@ p {
 }
 .launchpad .lp__progress span:nth-child(5) {
   left: 80%;
+}
+
+.launchpad .lp__next_phase_price {
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.launchpad .lp__next_phase_price span {
+  font-weight: 600;
+  color: #f957cf;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 1200px) {
+  .lp__sold_progress .lp__price .lp__raised_usd,
+  .lp__sold_progress .lp__price .lp__target_usd {
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 576px) {
