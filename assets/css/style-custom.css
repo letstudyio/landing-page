@@ -270,8 +270,20 @@ p {
 
 .launchpad .lp__live_indicator {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   margin: 10px 0 10px 0;
+}
+
+.launchpad .lp__current_price {
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.launchpad .lp__current_price span {
+  color: #0071f0;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .launchpad .lp__live_indicator .lp__live_indicator_box {

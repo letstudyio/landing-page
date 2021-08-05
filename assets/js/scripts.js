@@ -1022,6 +1022,7 @@ function numberWithCommas(num) {
 
         $("#lp__progress_bar").css("width", percent + "%");
         $("#lp__phase_title").text(data.name || "");
+        $("#lp__current_price_value").text("$" + numberWithCommas(Number(data.price || 0) + "") + " USD");
         $("#lp__next_price").text("$" + numberWithCommas(Number(data.nextFundPrice || 0) + "") + " USD");
         $("#lp__increase").text(increment + "%");
         $("#lp__raised_token").text(numberWithCommas(Number(data.soldToken || 0).toFixed(0)) + " Tokens");
