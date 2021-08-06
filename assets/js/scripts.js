@@ -1017,7 +1017,7 @@ function numberWithCommas(num) {
           return;
         }
 
-        var percent = Math.max(Math.round(Number(data.soldToken || 0) / Number(data.totalSupplyOfPhase || 0)), 5);
+        var percent = Math.max(Math.round((Number(data.soldToken || 0) / Number(data.totalSupplyOfPhase || 0)) * 100), 5);
         var increment =  Math.round(((Number(data.nextFundPrice) - Number(data.price)) / Number(data.nextFundPrice)) * 100);
 
         $("#lp__progress_bar").css("width", percent + "%");
