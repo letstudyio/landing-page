@@ -1008,9 +1008,25 @@ NioApp = function (NioApp, $, window, document) {
 
 function numberWithCommas(num) {
     return num.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-  }
+}
 
-  (function ($, window, document) {
+function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return typeof sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+    return false;
+};
+
+(function ($, window, document) {
     $("document").ready(function () {
       $.get("https://api.app.letstudy.io/fund-statistic").done(function (data) {
         if (!data) {
@@ -1018,7 +1034,9 @@ function numberWithCommas(num) {
         }
 
         var percent = Math.max(Math.round((Number(data.soldToken || 0) / Number(data.totalSupplyOfPhase || 0)) * 100), 5);
-        var increment =  Math.round(((Number(data.nextFundPrice) - Number(data.price)) / Number(data.nextFundPrice)) * 100);
+        var increment = Math.round(
+          ((Number(data.nextFundPrice) - Number(data.price)) / Number(data.nextFundPrice)) * 100
+        );
 
         $("#lp__progress_bar").css("width", percent + "%");
         $("#lp__phase_title").text(data.name || "");
@@ -1032,5 +1050,13 @@ function numberWithCommas(num) {
         $("#lp__total_raised_value").text("$" + numberWithCommas(Number(data.raisedFund || 0).toFixed(0)) + " USD");
         $("#lp__upper").remove();
       });
+
+      var utm = getUrlParameter("utm_source");
+      var btnBuyToken = $("a.btn__buy_token");
+
+      if (btnBuyToken && utm) {
+        var appUrl = btnBuyToken.data("url");
+        btnBuyToken.attr("href", appUrl + "?referrer=" + encodeURIComponent(utm));
+      }
     });
   })(window.jQuery, window, document);
