@@ -4091,7 +4091,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 @media (max-width: 767px) and (orientation: landscape) { .banner-gfx { max-width: 320px; } }
 
 @media (min-width: 992px) and (max-width: 1200px) and (orientation: portrait) { .banner-fs { min-height: calc(65vh - 90px); }
-  .is-transparent .banner-fs { min-height: 60vh; } }
+  .is-transparent .banner-fs { min-height: 80vh; } }
 
 @media (max-width: 420px) { .cpn-btns .btn:not(.btn-with-icon) { font-size: 11px; padding: 8px 16px; } }
 
@@ -4337,11 +4337,11 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .feature-icon-auto { width: auto; }
 
-.feature-icon-lg { width: 160px; margin-top: -15px; margin-bottom: 5px !important; }
+.feature-icon-lg { width: 160px; margin-bottom: 5px !important; }
 
 .feature-icon-lg-s1 { width: 110px; margin-top: -10px; margin-bottom: 5px !important; }
 
-.feature-icon-lg-s2 { width: 130px; margin-top: -12px; margin-bottom: 5px !important; }
+.feature-icon-lg-s2 { width: 130px; margin-bottom: 5px !important; }
 
 .feature-icon-lg-s3 { width: 95px; margin-top: -8px; margin-bottom: 20px !important; }
 
