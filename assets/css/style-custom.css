@@ -614,11 +614,16 @@ p {
 }
 
 .bg_left_flow {
-  background-position-x: -65%;
+  top: 10%;
+  left: 0;
+  transform: translateX(-50%);
 }
 
 .bg_right_flow {
-  background-position-x: 165%;
+  top: 10%;
+  right: 0;
+  left: unset;
+  transform: translateX(50%);
 }
 
 /* Slider */
