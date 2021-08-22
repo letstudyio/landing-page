@@ -91,7 +91,6 @@
             background: -webkit-linear-gradient(144deg, rgba(12,61,223,1) 0%, rgba(5,23,157,1) 100%);
             background: linear-gradient(144deg, rgba(12,61,223,1) 0%, rgba(5,23,157,1) 100%);
             color: #FFFFFF;
-            background-image: url(source/hero_main_bg.png);
             background-size: cover;
             position: relative;
         }
@@ -108,8 +107,7 @@
         }
 
         .has-fixed:not(.is-dark) .header-main {
-        background-color: #0A34D0;
-        background-image: url(source/hero_main_bg.png);
+        background-color: #0C3DDF;
         background-size: cover;
         }
 
@@ -429,7 +427,7 @@
             </section>
 
             <section id='lettutor' class='section position-relative overflow-hidden'>
-                <div class="circle-animation bg_left_flow animated fadeIn" data-animate="fadeIn" data-delay="1.55" style="visibility: visible; animation-delay: 1.55s;">
+                <div class="circle-animation bg_left_flow z-depth-1 animated fadeIn" data-animate="fadeIn" data-delay="1.55" style="visibility: visible; animation-delay: 1.55s;">
                     <div class="circle-animation-l1 ca">
                         <span class="circle-animation-l1-d1 ca-dot ca-color-1"></span>
                         <span class="circle-animation-l1-d2 ca-dot ca-color-2"></span>
@@ -509,7 +507,7 @@
             </section>
 
             <section id='letlearn' class='section position-relative overflow-hidden'>
-                <div class="circle-animation bg_right_flow animated fadeIn" data-animate="fadeIn" data-delay="1.55" style="visibility: visible; animation-delay: 1.55s;">
+                <div class="circle-animation bg_right_flow z-depth-1 animated fadeIn" data-animate="fadeIn" data-delay="1.55" style="visibility: visible; animation-delay: 1.55s;">
                     <div class="circle-animation-l1 ca">
                         <span class="circle-animation-l1-d1 ca-dot ca-color-1"></span>
                         <span class="circle-animation-l1-d2 ca-dot ca-color-2"></span>
@@ -1214,11 +1212,8 @@
     <!-- JavaScript -->
     <script src="assets/js/jquery.bundle.js?ver=1930"></script>
     <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/plyr.polyfilled.js"></script>
     <script src="assets/js/scripts.js?ver=1930"></script>
     <script src="assets/js/charts.js"></script>
-    <script src="https://cdn.plyr.io/3.6.8/plyr.polyfilled.js"></script>
-    <script>
-        const player = new Plyr('#player');
-    </script>
 </body>
 </html>

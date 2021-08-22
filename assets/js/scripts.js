@@ -902,6 +902,10 @@ function getUrlParameter(sParam) {
 
 (function ($, window, document) {
     $("document").ready(function () {
+      const player = new Plyr('#player', {
+        autoplay: true
+      });
+
       $.get("https://api.app.letstudy.io/fund-statistic").done(function (data) {
         if (!data) {
           return;

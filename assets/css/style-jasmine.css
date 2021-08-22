@@ -3263,7 +3263,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .circle-animation-l1-d6 { left: -7px; top: 50%; }
 
-.circle-animation-l2 { height: 84.6%; width: 84.6%; border-radius: 50%; animation: rotateacw_alt 66s linear infinite 0s; }
+.circle-animation-l2 { height: 82.5%; width: 82.5%; border-radius: 50%; animation: rotateacw_alt 66s linear infinite 0s; }
 
 .circle-animation-l2-d1 { right: 4.9%; top: 25%; }
 
@@ -3275,7 +3275,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .circle-animation-l2-d5 { right: 11.2%; bottom: 16%; }
 
-.circle-animation-l3 { height: 69.2%; width: 69.2%; animation: rotatecw_alt 54s linear infinite 0s; }
+.circle-animation-l3 { height: 65%; width: 65%; animation: rotatecw_alt 54s linear infinite 0s; }
 
 .circle-animation-l3-d1 { left: 7.6%; top: 20%; }
 
