@@ -613,6 +613,14 @@ p {
   color: #0071F0;
 }
 
+.bg_left_flow {
+  background-position-x: -65%;
+}
+
+.bg_right_flow {
+  background-position-x: 165%;
+}
+
 /* Slider */
 .slick-slide {
     margin: 10px 20px;
