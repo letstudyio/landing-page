@@ -592,11 +592,11 @@ p {
 }
 
 .bg-partner {
-  background-color: #292c31
+  background-color: #0B236D;
 }
 
 .bg-footer {
-  background-color: #0e1766;
+  background-color: #0B236D;
 }
 
 .pt-25vh {
@@ -607,6 +607,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.primary-highlighted {
+  color: #0071F0;
 }
 
 /* Slider */
