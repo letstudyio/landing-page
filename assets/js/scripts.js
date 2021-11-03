@@ -957,5 +957,25 @@ function getUrlParameter(sParam) {
             }
         }]
       });
+      $('.slider-project-stats').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 5000,
+        arrows: true,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 3
+          }
+        }, {
+          breakpoint: 576,
+          settings: {
+            slidesToShow: 2
+          }
+        }]
+      });
     });
   })(window.jQuery, window, document);

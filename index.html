@@ -4,8 +4,10 @@
     <meta charset="utf-8">
     <meta name="author" content="Softnio">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="The LetStudy platform is a blockchain-based decentralized education service platform. The main purpose of LetStudy is to create an ecosystem on blockchain to improve the educational area especially after the Covid pandemic.">
-    <meta name="keywords" content="Cryptocurrency, crypto token, ico, ico crypto price, ico coin price, new crypto ico, upcoming crypto icos, crypto ico news, token icos, ico coin market cap, new token ico, ico coin news, ico token price, new ico coin, coin icos, crypto icos, new ico cryptocurrency, upcoming ico coins, ico coin offering">
+    <meta name="description"
+          content="The LetStudy platform is a blockchain-based decentralized education service platform. The main purpose of LetStudy is to create an ecosystem on blockchain to improve the educational area especially after the Covid pandemic.">
+    <meta name="keywords"
+          content="Cryptocurrency, crypto token, ico, ico crypto price, ico coin price, new crypto ico, upcoming crypto icos, crypto ico news, token icos, ico coin market cap, new token ico, ico coin news, ico token price, new ico coin, coin icos, crypto icos, new ico cryptocurrency, upcoming ico coins, ico coin offering">
     <!-- Fav Icon  -->
     <link rel="shortcut icon" href="./source/logo.svg">
     <!-- Site Title  -->
@@ -13,13 +15,23 @@
 
     <!-- Facebook Pixel Code -->
     <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
+      !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod ?
+            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window, document, 'script',
         'https://connect.facebook.net/en_US/fbevents.js');
       fbq('init', '335364445036738');
       fbq('track', 'PageView');
@@ -30,11 +42,19 @@
     <!-- End Facebook Pixel Code -->
 
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-MXX33WJ');</script>
+    <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MXX33WJ');</script>
     <!-- End Google Tag Manager -->
 
     <!-- Bundle and Base CSS -->
@@ -43,12 +63,13 @@
     <!-- Extra CSS -->
     <link rel="stylesheet" href="assets/css/theme.css?ver=1930">
     <link rel="stylesheet" href="assets/css/style-custom.css">
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css"/>
 
     <link rel="canonical" href="http://letstudy.io">
 
     <meta content="LetStudy - A blockchain-based online education platform" property="og:title">
-    <meta content="The LetStudy platform is a blockchain-based decentralized education service platform. The main purpose of LetStudy is to create an ecosystem on blockchain to improve the educational area especially after the Covid pandemic." itemprop="description" property="og:description">
+    <meta content="The LetStudy platform is a blockchain-based decentralized education service platform. The main purpose of LetStudy is to create an ecosystem on blockchain to improve the educational area especially after the Covid pandemic."
+          itemprop="description" property="og:description">
     <meta property="og:image" itemprop="thumbnailUrl" content="https://letstudy.io/source/thumbnail.jpg">
     <meta property="og:image:width" content="800">
     <meta property="og:image:height" content="689">
@@ -56,101 +77,139 @@
     <meta name="twitter:card" value="summary">
     <meta name="twitter:url" content="http://letstudy.io">
     <meta name="twitter:title" content="LetStudy - A blockchain-based online education platform">
-    <meta name="twitter:description" content="The LetStudy platform is a blockchain-based decentralized education service platform. The main purpose of LetStudy is to create an ecosystem on blockchain to improve the educational area especially after the Covid pandemic.">
+    <meta name="twitter:description"
+          content="The LetStudy platform is a blockchain-based decentralized education service platform. The main purpose of LetStudy is to create an ecosystem on blockchain to improve the educational area especially after the Covid pandemic.">
     <meta name="twitter:image" content="https://letstudy.io/source/thumbnail.jpg">
     <meta name="twitter:site" content="@letstudycoin">
     <meta name="twitter:creator" content="@letstudycoin">
 
     <style>
         .menu {
-        flex: 1;
-        justify-content: space-between;
+            flex: 1;
+            justify-content: space-between;
+        }
+
+        .btn {
+            font-weight: 600;
         }
 
         .header-navbar-s1 .menu > .menu-item > a {
-        text-align: center;
-        font-size: 18px;
-        line-height: 1.2;
+            text-align: center;
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 600;
         }
 
         .header-navbar-s1 .menu > .menu-item > a:hover {
-        color: #f957cf;
+            color: #f957cf;
         }
 
         .logo-link {
-        display: flex;
-        font-size: 24px;
-        align-items: center;
-        padding-right: 20px;
+            display: flex;
+            font-size: 24px;
+            align-items: center;
+            padding-right: 20px;
         }
 
         .logo-link span {
-        font-family: 'Poppins', sans-serif;
-        font-size: 36px;
-        color: white;
-        font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+            font-size: 36px;
+            color: white;
+            font-weight: 600;
         }
 
         .nk-banner {
-            background: rgb(12,61,223);
-            background: -moz-linear-gradient(144deg, rgba(12,61,223,1) 0%, rgba(5,23,157,1) 100%);
-            background: -webkit-linear-gradient(144deg, rgba(12,61,223,1) 0%, rgba(5,23,157,1) 100%);
-            background: linear-gradient(144deg, rgba(12,61,223,1) 0%, rgba(5,23,157,1) 100%);
-            color: #FFFFFF;
-            background-size: cover;
             position: relative;
+            color: #FFFFFF;
         }
 
         .nk-banner:before {
-        content: ' ';
-        background-image: url(source/hero_bg.png);
-        background-size: cover;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-repeat: no-repeat;
-        background-position: 0%;
+            background: rgb(12, 61, 223);
+            background: -moz-linear-gradient(144deg, rgba(12, 61, 223, 1) 0%, rgba(5, 23, 157, 1) 100%);
+            background: -webkit-linear-gradient(144deg, rgba(12, 61, 223, 1) 0%, rgba(5, 23, 157, 1) 100%);
+            background: linear-gradient(144deg, rgba(12, 61, 223, 1) 0%, rgba(5, 23, 157, 1) 100%);
+            background-size: cover;
+            clip-path: polygon(0 0, 0 100%, 100% 75%, 100% 0);
+            z-index: -1;
+            content: ' ';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        @media (max-width: 767px) {
+            .nk-banner:before {
+                clip-path: polygon(0 0, 0 100%, 100% 80%, 100% 0);
+            }
+        }
+
+        .nk-banner:after {
+            content: ' ';
+            background-image: url(source/hero_bg.png);
+            background-size: cover;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: 0%;
+            z-index: -1;
+        }
+
+        .project-dot {
+            height: 12px;
+            width: 12px;
+            margin-top: 5px;
+            margin-right: 5px;
+            background-color: #fff;
+            border-radius: 50%;
+            display: inline-block;
+            opacity: 0.6;
+        }
+
+        .project-dot-last {
+            margin-right: 20px;
+            background-color: #bbb;
         }
 
         .has-fixed:not(.is-dark) .header-main {
-        background-color: #0C3DDF;
-        background-size: cover;
+            background-color: #0C3DDF;
+            background-size: cover;
         }
 
         .text-pink {
-        color: #F957CF;
+            color: #F957CF;
         }
 
         .countdown-s4 .countdown-time {
-        color: #F957CF;
+            color: #F957CF;
         }
 
         .countdown-header-icon {
-        max-width: 80px;
+            max-width: 80px;
         }
 
         .token-status-s4 {
-        background: url(source/hero_background.svg);
-        background-size: contain;
-        background-position: center;
-        min-height: 600px;
-        max-width: 540px;
-        margin: 0 auto;
-        background-repeat: no-repeat;
+            background: url(source/hero_background.svg);
+            background-size: contain;
+            background-position: center;
+            min-height: 600px;
+            max-width: 540px;
+            margin: 0 auto;
+            background-repeat: no-repeat;
         }
 
         .icon-square {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        height: 50px;
-        width: 50px;
-        border-radius: 10px;
-        background: #FFF;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            width: 50px;
+            border-radius: 10px;
+            background: #FFF;
         }
 
         .btn-rg.btn-grad.btn-light {
-        background: #eff6ff;
+            background: #eff6ff;
         }
 
         .btn-rg.btn-grad.btn-light:before {
@@ -162,41 +221,47 @@
         }
 
         .cpn-links li {
-        padding: 10px;
+            padding: 10px;
+            margin-bottom: 10px;
         }
 
         .feature-s8-alt .feature-icon {
-        position: inherit;
-        left: inherit;
-        top: inherit;
-        transform: inherit;
+            position: inherit;
+            left: inherit;
+            top: inherit;
+            transform: inherit;
         }
 
         .feature.card {
-        border-radius: 20px;
-        height: 100%;
+            border-radius: 20px;
+            height: 100%;
         }
 
         .text-orange {
-        color: #E58D20;
+            color: #E58D20;
         }
 
         .text-green {
-        color: #14BC77;
+            color: #14BC77;
         }
 
         .store-button {
             cursor: pointer;
-            max-width: 140px;
+            max-width: 50px;
             border-radius: 8px;
-            background-color: #000000;
+            position: relative;
+        }
+
+        .store-button img {
+            width: 100%;
+            height: 100%;
         }
 
         .bg-blue {
-            background: rgb(12,61,223);
-            background: -moz-linear-gradient(144deg, rgba(12,61,223,1) 0%, rgba(5,23,157,1) 100%);
-            background: -webkit-linear-gradient(144deg, rgba(12,61,223,1) 0%, rgba(5,23,157,1) 100%);
-            background: linear-gradient(144deg, rgba(12,61,223,1) 0%, rgba(5,23,157,1) 100%);
+            background: rgb(12, 61, 223);
+            background: -moz-linear-gradient(144deg, rgba(12, 61, 223, 1) 0%, rgba(5, 23, 157, 1) 100%);
+            background: -webkit-linear-gradient(144deg, rgba(12, 61, 223, 1) 0%, rgba(5, 23, 157, 1) 100%);
+            background: linear-gradient(144deg, rgba(12, 61, 223, 1) 0%, rgba(5, 23, 157, 1) 100%);
             color: #FFF;
             position: relative;
         }
@@ -214,946 +279,1139 @@
         }
 
         .section-b, .section {
-        padding-bottom: 60px;
-        padding-top: 60px;
+            padding-bottom: 60px;
+            padding-top: 60px;
         }
 
         .nk-ovm {
-        display: none;
+            display: none;
         }
+
         .list-check li:before {
-        content: ' ';
+            content: ' ';
         }
+
         .list-check-s3 li.check-yellow:before {
-        background: #FFCF05;
+            background: #FFCF05;
         }
+
         .list-check-s3 li.check-mint:before {
-        background: #5FFABE;
+            background: #5FFABE;
         }
+
         .list-check-s3 li.check-pink:before {
-        background: #FF84AA;
+            background: #FF84AA;
         }
+
         .list-check-s3 li.check-red:before {
-        background: #E24359;
+            background: #E24359;
         }
+
         .list-check-s3 li.check-blue:before {
-        background: #5496FF;
+            background: #5496FF;
         }
+
         .list-check-s3 li.check-violet:before {
-        background: #542FEF;
+            background: #542FEF;
         }
-        .toggle-line{
-        color: #fff;
+
+        .toggle-line {
+            color: #fff;
+        }
+
+        .partner-list-left .partner-logo-s2, .partner-list-left .partner-logo-s3 {
+            text-align: center;
         }
     </style>
 </head>
 
 
 <body class="nk-body body-wider mode-onepage">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXX33WJ"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXX33WJ"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
 
-    <div class="nk-wrap">
-        <header class="nk-header page-header is-sticky is-shrink is-transparent is-light" id="header">
-            <!-- Header @@ss -->
-            <div class="header-main">
-                <div class="header-container container">
-                    <div class="header-wrap">
-                        <!-- Logo @@ss -->
-                        <div class="header-logo logo">
-                            <a href="./" class="logo-link">
-                                <img class="logo-dark mr-2" src="source/light_logo.svg" alt="LetStudy logo">
-                                <img class="logo-light mr-2" src="source/light_logo.svg" alt="LetStudy logo">
-                                <span>
-                                    LetStudy
-                                </span>
-                            </a>
-                        </div>
-
-                        <!-- Menu Toogle @@ss -->
-                        <div class="header-nav-toggle">
-                            <a href="#" class="navbar-toggle" data-menu-toggle="header-menu">
-                                <div class="toggle-line">
-                                    <span></span>
-                                </div>
-                            </a>
-                        </div>
-
-                        <!-- Menu @@ss -->
-                        <div class="header-navbar header-navbar-s1">
-                            <nav class="header-menu" id="header-menu">
-                                <ul class="menu">
-                                    <li class="menu-item"><a class="menu-link nav-link" href="#why">KEY PRODUCTS</a></li>
-                                    <li class="menu-item"><a class="menu-link nav-link" href="#token">LSC TOKEN</a></li>
-                                    <li class="menu-item"><a class="menu-link nav-link" href="#roadmap">ROADMAP</a></li>
-                                    <li class="menu-item"><a class="menu-link nav-link" href="#team">TEAM</a></li>
-                                    <li class="menu-item"><a id="btn__buy_token" class="btn__buy_token menu-link nav-link" data-url='http://app.letstudy.io/' href="http://app.letstudy.io/" target="_blank">BUY TOKEN</a></li>
-                                </ul>
-                            </nav>
-                        </div><!-- .header-navbar @@ee -->
+<div class="nk-wrap">
+    <header class="nk-header page-header is-sticky is-shrink is-transparent is-light" id="header">
+        <!-- Header @@ss -->
+        <div class="header-main">
+            <div class="header-container container">
+                <div class="header-wrap">
+                    <!-- Logo @@ss -->
+                    <div class="header-logo logo">
+                        <a href="./" class="logo-link">
+                            <img class="logo-dark mr-2" src="source/logo_text.svg" alt="LetStudy logo">
+                            <img class="logo-light mr-2" src="source/logo_text.svg" alt="LetStudy logo">
+                        </a>
                     </div>
+
+                    <!-- Menu Toogle @@ss -->
+                    <div class="header-nav-toggle">
+                        <a href="#" class="navbar-toggle" data-menu-toggle="header-menu">
+                            <div class="toggle-line">
+                                <span></span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Menu @@ss -->
+                    <div class="header-navbar header-navbar-s1">
+                        <nav class="header-menu" id="header-menu">
+                            <ul class="menu">
+                                <li class="menu-item"><a class="menu-link nav-link" href="#why">KEY PRODUCTS</a></li>
+                                <li class="menu-item"><a class="menu-link nav-link" href="#token">LSC TOKEN</a></li>
+                                <li class="menu-item"><a class="menu-link nav-link" href="#roadmap">ROADMAP</a></li>
+                                <li class="menu-item"><a class="menu-link nav-link" href="#team">TEAM</a></li>
+                                <li class="menu-item"><a id="btn__buy_token" class="btn__buy_token menu-link nav-link"
+                                                         data-url='http://app.letstudy.io/'
+                                                         href="http://app.letstudy.io/" target="_blank">BUY TOKEN</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div><!-- .header-navbar @@ee -->
                 </div>
-            </div><!-- .header-main @@ee -->
-            <!-- Banner @@ss -->
-            <div class="header-banner bg-light ov-h header-banner-jasmine">
-                <div class="nk-banner">
-                    <div class="banner banner-fs banner-single">
-                        <div class="container pt-25vh">
-                            <div class="banner-caption text-center">
-                                <h1 class="title pr-md-4 text-white"><span class="text-pink font-weight-bold">LETSTUDY PLATFORM</span><br class="d-xl-block">BLOCKCHAIN-BASED ONLINE EDUCATION</h1>
-                                <div class="fs-lg">
-                                    The LetStudy platform is a blockchain-based decentralized education service platform.
-                                    The main purpose of LetStudy is to create an ecosystem on blockchain to improve the
-                                    educational area, especially after the Covid pandemic.
+            </div>
+        </div><!-- .header-main @@ee -->
+        <!-- Banner @@ss -->
+        <div class="header-banner ov-h header-banner-jasmine">
+            <div class="nk-banner">
+                <div class="banner banner-fs banner-single">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-6">
+                                <div class="banner-caption text-center">
+                                    <h1 class="title pr-md-4 text-white"><span class="text-pink font-weight-bold">LETSTUDY PLATFORM</span><br
+                                            class="d-xl-block">BLOCKCHAIN-BASED ONLINE EDUCATION</h1>
+                                    <div class="fs-lg">
+                                        The LetStudy platform is a blockchain-based decentralized education service
+                                        platform.
+                                        The main purpose of LetStudy is to create an ecosystem on blockchain to improve
+                                        the
+                                        educational area, especially after the Covid pandemic.
+                                    </div>
+                                    <div class="cpn-action">
+                                        <div class="mb-5">
+                                            <a class="btn btn-primary mr-2" target="_blank"
+                                               href="https://t.me/letstudyus">TELEGRAM</a>
+                                            <a class="btn btn-light" target="_blank"
+                                               href="whitepaper.pdf">WHITEPAPER</a>
+                                        </div>
+                                    </div>
+                                    <ul class="cpn-links text-center">
+                                        <li>
+                                            <a class="link link-primary" target="_blank" href="https://t.me/letstudyus">
+                                                <em class="link-icon icon-square">
+                                                    <img alt="letstudy community telegram"
+                                                         src="source/ic_lsy_letstudy_community_telegram.svg"/>
+                                                </em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="link link-primary" target="_blank"
+                                               href="https://www.facebook.com/letstudycoin">
+                                                <em class="link-icon icon-square">
+                                                    <img alt="letstudy community facebook"
+                                                         src="source/ic_lsy_letstudy_community_facebook.svg"/>
+                                                </em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="link link-primary video-play" target="_blank"
+                                               href="https://twitter.com/letstudycoin">
+                                                <em class="link-icon icon-square ">
+                                                    <img alt="letstudy community twitter"
+                                                         src="source/ic_lsy_letstudy_community_twitter.svg"/>
+                                                </em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="link link-primary" target="_blank"
+                                               href="https://discord.gg/RJSgUbCGBd">
+                                                <em class="link-icon icon-square">
+                                                    <img alt="letstudy community discord"
+                                                         src="source/ic_lsy_letstudy_community_discord.svg"/>
+                                                </em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="link link-primary" target="_blank"
+                                               href="https://letstudy.medium.com/">
+                                                <em class="link-icon icon-square ">
+                                                    <img alt="letstudy community medium"
+                                                         src="source/ic_lsy_letstudy_community_medium.svg"/>
+                                                </em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="link link-primary video-play" target="_blank"
+                                               href="https://github.com/letstudyio">
+                                                <em class="link-icon icon-square ">
+                                                    <img alt="letstudy community github"
+                                                         src="source/ic_lsy_letstudy_community_github.svg"/>
+                                                </em>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="cpn-action">
-                                    <div class="mb-5">
-                                        <a class="btn btn-rg btn-grad btn-grad-alt mr-2" target="_blank" href="https://t.me/letstudyus">TELEGRAM</a>
-                                        <a class="btn btn-light btn-rg btn-grad" target="_blank" href="whitepaper.pdf">WHITEPAPER</a>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="project-info">
+                                    <div class="project-tab__nav">
+                                        <span class="project-dot"></span>
+                                        <span class="project-dot"></span>
+                                        <span class="project-dot project-dot-last"></span>
+                                        <ul class="nav nav-pills pills-header flex-nowrap swiper-wrapper"
+                                            role="tablist">
+
+                                            <li class="nav-item">
+                                                <a class="project-tab__link active text-center mx-auto"
+                                                   data-toggle="pill"
+                                                   href="#pills-lettutor" role="tab" aria-controls="pills-lettutor"
+                                                   aria-selected="false">
+                                                    <p class="project-tab__title">Let Tutor</p>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="project-tab__link text-center mx-auto" data-toggle="pill"
+                                                   href="#pills-letlearn" role="tab" aria-controls="pills-letlearn"
+                                                   aria-selected="false">
+                                                    <p class="project-tab__title">Let Learn</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-content project-tab__content">
+                                        <div class="project-tab__pane tab-pane active show" id="pills-lettutor"
+                                             role="tabpanel"
+                                             aria-labelledby="pills-lettutor-tab">
+                                            <h4 class="project__title">Let Tutor - Online Tutoring System</h4>
+                                            <div class="project-stats-row project-stats-mobile">
+                                                <div class="project-stats-item">
+                                                    <div class="project-stats-box highlighted">
+                                                        <img class="project-stats-img"
+                                                             src="assets/images/ic_total.svg"/>
+                                                        <div class="project-stats-info">Total Gain
+                                                            <div class="project-stats-value">
+                                                                $
+                                                                <span>1,000.00</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="project-stats-item">
+                                                    <div class="project-stats-box highlighted">
+                                                        <img class="project-stats-img"
+                                                             src="assets/images/ic_sessions.svg"/>
+                                                        <div class="project-stats-info">Total sessions
+                                                            <div class="project-stats-value">
+                                                                2324
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="project-stats-row slider-project-stats">
+                                                <div class="project-stats-item slide">
+                                                    <div class="project-stats-box">
+                                                        <div class="project-stats-info">Bookings
+                                                            <div class="project-stats-value">
+                                                                3221
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="project-stats-item slide">
+                                                    <div class="project-stats-box">
+                                                        <div class="project-stats-info">Hours studied
+                                                            <div class="project-stats-value">
+                                                                3452
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="project-stats-item slide">
+                                                    <div class="project-stats-box">
+                                                        <div class="project-stats-info">Members
+                                                            <div class="project-stats-value">
+                                                                1301
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="project-stats-item slide">
+                                                    <div class="project-stats-box">
+                                                        <div class="project-stats-info">Teachers
+                                                            <div class="project-stats-value">
+                                                                101
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="project-stats-item slide">
+                                                    <div class="project-stats-box">
+                                                        <div class="project-stats-info">Student Paid
+                                                            <div class="project-stats-value">
+                                                                $2,000.00
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="project-tab__pane tab-pane" id="pills-letlearn" role="tabpanel"
+                                             aria-labelledby="pills-lettutor-tab">
+                                            <div class="project-stats-box height-200 d-flex justify-content-center align-items-center">
+                                                <h5>Coming Soon</h5>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <ul class="cpn-links text-center">
-                                    <li>
-                                        <a class="link link-primary" target="_blank" href="https://t.me/letstudyus">
-                                            <em class="link-icon icon-square">
-                                                <img alt="letstudy community telegram" src="source/ic_lsy_letstudy_community_telegram.svg" />
-                                            </em>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="link link-primary" target="_blank" href="https://www.facebook.com/letstudycoin">
-                                            <em class="link-icon icon-square">
-                                                <img alt="letstudy community facebook" src="source/ic_lsy_letstudy_community_facebook.svg" />
-                                            </em>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="link link-primary video-play" target="_blank" href="https://twitter.com/letstudycoin">
-                                            <em class="link-icon icon-square ">
-                                                <img alt="letstudy community twitter" src="source/ic_lsy_letstudy_community_twitter.svg" />
-                                            </em>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="link link-primary" target="_blank" href="https://discord.gg/RJSgUbCGBd">
-                                            <em class="link-icon icon-square">
-                                                <img alt="letstudy community discord" src="source/ic_lsy_letstudy_community_discord.svg" />
-                                            </em>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="link link-primary" target="_blank" href="https://letstudy.medium.com/">
-                                            <em class="link-icon icon-square ">
-                                                <img alt="letstudy community medium" src="source/ic_lsy_letstudy_community_medium.svg" />
-                                            </em>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="link link-primary video-play" target="_blank" href="https://github.com/letstudyio">
-                                            <em class="link-icon icon-square ">
-                                                <img alt="letstudy community github" src="source/ic_lsy_letstudy_community_github.svg" />
-                                            </em>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="p-3 p-lg-5">
                                 <div class="embed-container">
                                     <div class="plyr__video-embed" id="player">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/t8of8bZ45W8?autoplay=1&rel=0&loop=1" frameborder="0"></iframe>
+                                        <iframe width="560" height="315"
+                                                src="https://www.youtube.com/embed/t8of8bZ45W8?autoplay=1&rel=0&loop=1"
+                                                frameborder="0"></iframe>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- .header-banner @@ee -->
             </div>
-        </header>
+            <!-- .header-banner @@ee -->
+        </div>
+    </header>
 
-        <main class="nk-pages">
-            <section class="section bg-light" id="why">
-                <div class="background-shape bs-reverse"></div>
+    <main class="nk-pages">
+        <section class="section" id="why">
+            <div class="container">
+                <div class="section-head section-head-s9">
+                    <h2 class="tc-primary text-center font-weight-bold">E-Learning Platform</h2>
+                    <h4 class="title text-center">Key Products</h4>
+                </div>
+                <!-- Block @@ss -->
+                <div class="nk-block">
+                    <div class="row gutter-vr-40px justify-content-center">
+                        <div class="col-sm-6 col-md-4 animated" data-animate="fadeInUp" data-delay=".2">
+                            <div class="feature feature-center card card-full-lg card-md flex-center px-1">
+                                <div class="feature-icon feature-icon-lg feature-icon-lg-s2">
+                                    <img src="source/ic_lettutor.svg" alt="feature">
+                                </div>
+                                <div class="feature-text feature-text-s8">
+                                    <a href="https://lettutor.com/" target="_blank">
+                                        <h5>
+                                            1-ON-1 TUTORING PLATFORM
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!-- .col -->
+                        <div class="col-sm-6 col-md-4 animated" data-animate="fadeInUp" data-delay=".5">
+                            <div class="feature feature-center card card-full-lg card-md flex-center px-1">
+                                <div class="feature-icon feature-icon-lg feature-icon-lg-s2">
+                                    <img src="source/ic_letlearn.svg" alt="feature">
+                                </div>
+                                <div class="feature-text feature-text-s8">
+                                    <a href="https://letlearn.net/" target="_blank">
+                                        <h5>
+                                            VIDEO ONLINE COURSE LEARNING
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 animated" data-animate="fadeInUp" data-delay=".8">
+                            <div class="feature feature-center card card-full-lg card-md flex-center px-1">
+                                <div class="feature-icon feature-icon-lg feature-icon-lg-s2">
+                                    <img src="source/ic_leteducation.svg" alt="feature">
+                                </div>
+                                <div class="feature-text feature-text-s8">
+                                    <a class="menu-link nav-link" href="#token">
+                                        <h5>
+                                            LETSTUDY PAYMENT - LSC
+                                        </h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!-- .col -->
+                    </div>
+                    <!-- .row -->
+                </div><!-- .block @@ee -->
+            </div>
+        </section>
+
+        <section id='lettutor' class='section position-relative overflow-hidden'>
+            <div class="circle-animation bg_left_flow z-depth-1 animated fadeIn" data-animate="fadeIn" data-delay="1.55"
+                 style="visibility: visible; animation-delay: 1.55s;">
+                <div class="circle-animation-l1 ca">
+                    <span class="circle-animation-l1-d1 ca-dot ca-color-1"></span>
+                    <span class="circle-animation-l1-d2 ca-dot ca-color-2"></span>
+                    <span class="circle-animation-l1-d3 ca-dot ca-color-3"></span>
+                    <span class="circle-animation-l1-d4 ca-dot ca-color-1"></span>
+                    <span class="circle-animation-l1-d5 ca-dot ca-color-2"></span>
+                    <span class="circle-animation-l1-d6 ca-dot ca-color-3"></span>
+                </div>
+                <div class="circle-animation-l2 ca">
+                    <span class="circle-animation-l2-d1 ca-dot ca-color-1"></span>
+                    <span class="circle-animation-l2-d2 ca-dot ca-color-3"></span>
+                    <span class="circle-animation-l2-d3 ca-dot ca-color-2"></span>
+                    <span class="circle-animation-l2-d4 ca-dot ca-color-1"></span>
+                    <span class="circle-animation-l2-d5 ca-dot ca-color-2"></span>
+                </div>
+                <div class="circle-animation-l3 ca">
+                    <span class="circle-animation-l3-d1 ca-dot ca-color-1"></span>
+                    <span class="circle-animation-l3-d2 ca-dot ca-color-3"></span>
+                    <span class="circle-animation-l3-d3 ca-dot ca-color-2"></span>
+                    <span class="circle-animation-l3-d4 ca-dot ca-color-1"></span>
+                    <span class="circle-animation-l3-d5 ca-dot ca-color-2"></span>
+                </div>
+            </div>
+            <div class="container container-xxl my-5">
+                <!-- Block @@ss -->
+                <div class="nk-block nk-block-lg nk-block-features-s2 animated" data-animate="fadeInUp" data-delay=".4">
+                    <h1 class="section-title text-center tc-primary mb-4">Let Tutor</h1>
+                    <div class="row align-items-center flex-row-reverse gutter-vr-30px">
+                        <div class="col-md-6 col-lg-7">
+                            <img alt="lettutor" src="source/lettutor_mvp_illustration.png" alt="gfx">
+                        </div><!-- .col -->
+                        <div class="col-md-6 col-lg-5">
+                            <!-- Section Head @@ss -->
+                            <div class="nk-block-text">
+                                <h3 class="title mb-0">1-on-1 Online Tutoring Platform</h3>
+                                <div class="mb-4">
+                                    <a class="btn-link font-weight-bold fs-lg" target="_blank"
+                                       href="https://lettutor.com/">lettutor.com</a>
+                                </div>
+                                <p class="fs-lg">Peer-to-peer face-to-face learning platform via video conference with
+                                    interaction between teachers and learners</p>
+                                <div class="mb-5 d-flex">
+                                    <a class="btn btn-primary mr-4 d-block align-items-center d-flex text-white"
+                                       target="_blank" href="https://lettutor.com/">Web App</a>
+                                    <a class="store-button mr-4"
+                                       target="_blank"
+                                       href="https://apps.apple.com/vn/app/lettutor-learn-english-online/id1582277287">
+                                        <img alt="letlearn ios app" src="assets/images/ic_app_store.svg"/>
+                                    </a>
+                                    <a class="store-button"
+                                       target="_blank"
+                                       href="https://play.google.com/store/apps/details?id=com.let.tutoring">
+                                        <img alt="letlearn android app" src="assets/images/ic_google_play.svg"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .block @@ee -->
+                <!-- Block @@ss -->
+            </div>
+
+            <div class="container">
+                <h3 class="text-center mb-4"><span class="primary-highlighted">3 Simple steps</span> to join LetTutor
+                    class</h3>
+                <div class="row text-center">
+                    <div class="col-sm-4 step-by-step">
+                        <img alt="let tutor find a tutor" class="rounded-circle mb-3"
+                             src="source/ic_lettutor_search.svg" width="140" height="140">
+                        <h4 class="step-by-step-title">Find a tutor</h4>
+                        <p>Choose your ideal teacher and experience what it’s like to learn with Let Tutor
+                        </p>
+                    </div>
+                    <div class="col-sm-4 step-by-step">
+                        <img alt="let tutor book a session" class="rounded-circle mb-3"
+                             src="source/ic_lettutor_schedule.svg" width="140" height="140">
+                        <h4 class="step-by-step-title">Book a session</h4>
+                        <p>Find the perfect time for your busy schedule. Book lessons in seconds via desktop or
+                            mobile</p>
+                    </div>
+                    <div class="col-sm-4 step-by-step">
+                        <img alt="let tutor start learning" class="rounded-circle mb-3"
+                             src="source/ic_lettutor_join.svg" width="140" height="140">
+                        <h4 class="step-by-step-title">Start learning</h4>
+                        <p>When it’s lesson time, connect with your tutor through our comprehensive video platform</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id='letlearn' class='section position-relative overflow-hidden'>
+            <div class="circle-animation bg_right_flow z-depth-1 animated fadeIn" data-animate="fadeIn"
+                 data-delay="1.55" style="visibility: visible; animation-delay: 1.55s;">
+                <div class="circle-animation-l1 ca">
+                    <span class="circle-animation-l1-d1 ca-dot ca-color-1"></span>
+                    <span class="circle-animation-l1-d2 ca-dot ca-color-2"></span>
+                    <span class="circle-animation-l1-d3 ca-dot ca-color-3"></span>
+                    <span class="circle-animation-l1-d4 ca-dot ca-color-1"></span>
+                    <span class="circle-animation-l1-d5 ca-dot ca-color-2"></span>
+                    <span class="circle-animation-l1-d6 ca-dot ca-color-3"></span>
+                </div>
+                <div class="circle-animation-l2 ca">
+                    <span class="circle-animation-l2-d1 ca-dot ca-color-1"></span>
+                    <span class="circle-animation-l2-d2 ca-dot ca-color-3"></span>
+                    <span class="circle-animation-l2-d3 ca-dot ca-color-2"></span>
+                    <span class="circle-animation-l2-d4 ca-dot ca-color-1"></span>
+                    <span class="circle-animation-l2-d5 ca-dot ca-color-2"></span>
+                </div>
+                <div class="circle-animation-l3 ca">
+                    <span class="circle-animation-l3-d1 ca-dot ca-color-1"></span>
+                    <span class="circle-animation-l3-d2 ca-dot ca-color-3"></span>
+                    <span class="circle-animation-l3-d3 ca-dot ca-color-2"></span>
+                    <span class="circle-animation-l3-d4 ca-dot ca-color-1"></span>
+                    <span class="circle-animation-l3-d5 ca-dot ca-color-2"></span>
+                </div>
+            </div>
+            <div class="container container-xxl my-5">
+                <div class="nk-block nk-block-lg nk-block-features-s2 pt-5 animated" data-animate="fadeInUp"
+                     data-delay=".4">
+                    <h1 class="section-title text-center tc-primary mb-4">Let Learn</h1>
+                    <div class="row align-items-center gutter-vr-30px">
+                        <div class="col-md-6 col-lg-7 p-lg-5">
+                            <img alt="letlearn" src="source/mvp_letlearn.png" alt="gfx">
+                        </div><!-- .col -->
+                        <div class="col-md-6 col-lg-5">
+                            <!-- Section Head @@ss -->
+                            <div class="nk-block-text">
+                                <h3 class="title mb-0">Online Course Learning</h3>
+                                <div class="mb-4">
+                                    <a class="btn-link font-weight-bold fs-lg" target="_blank"
+                                       href="https://letlearn.net/">letlearn.net</a>
+                                </div>
+                                <p class="fs-lg">The instructors can create courses on LetLearn by uploading videos,
+                                    PDFs, audio with course creation tools
+                                </p>
+                                <div class="mb-5 d-flex">
+                                    <a class="btn btn-primary mr-4 d-block align-items-center d-flex text-white"
+                                       target="_blank" href="https://letlearn.net/">Web App</a>
+                                    <a class="store-button mr-4" onclick="alert('App is coming soon!');">
+                                        <img alt="lettutor ios app" src="assets/images/ic_app_store.svg"/>
+                                    </a>
+                                    <a class="store-button" onclick="alert('App is coming soon!');">
+                                        <img alt="lettutor android app" src="assets/images/ic_google_play.svg"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .block @@ee -->
+            </div>
+        </section>
+
+        <div class="bg-partner">
+            <section class="section" id="token">
                 <div class="container">
                     <div class="section-head section-head-s9">
-                        <h2  class="tc-primary text-center font-weight-bold">E-Learning Platform</h2>
-                        <h4  class="title text-center">Key Products</h4>
+                        <h1 class="section-title text-center text-white">Token Distribution</h1>
                     </div>
                     <!-- Block @@ss -->
-                    <div class="nk-block">
-                        <div class="row gutter-vr-40px justify-content-center">
-                            <div class="col-lg-4 col-md-6 animated" data-animate="fadeInUp" data-delay=".2">
-                                <div class="feature feature-center card card-full-lg card-md flex-center px-1">
-                                    <div class="feature-icon feature-icon-lg feature-icon-lg-s2">
-                                        <img src="source/ic_lettutor.svg" alt="feature">
-                                    </div>
-                                    <div class="feature-text feature-text-s8">
-                                        <a href="https://lettutor.com/" target="_blank">
-                                            <h5>
-                                                1-ON-1 TUTORING PLATFORM
-                                            </h5>
-                                        </a>
-                                    </div>
+                    <div class="nk-block nk-block-text-wrap animated" data-animate="fadeInUp" data-delay=".4">
+                        <div class="row align-items-center gutter-vr-30px">
+                            <div class="col-lg-5 col-md-12">
+                                <div class="nk-block-img">
+                                    <img alt="letstudy token distribution chart"
+                                         src="source/token_distribution_chart.svg">
                                 </div>
                             </div><!-- .col -->
-                            <div class="col-lg-4 col-md-6 animated" data-animate="fadeInUp" data-delay=".5">
-                                <div class="feature feature-center card card-full-lg card-md flex-center px-1">
-                                    <div class="feature-icon feature-icon-lg feature-icon-lg-s2">
-                                        <img src="source/ic_letlearn.svg" alt="feature">
-                                    </div>
-                                    <div class="feature-text feature-text-s8">
-                                        <a href="https://letlearn.net/" target="_blank">
-                                            <h5>
-                                                VIDEO ONLINE COURSE LEARNING
-                                            </h5>
-                                        </a>
-                                    </div>
+                            <div class="col-lg-7 col-md-12">
+                                <ul class="row list list-check list-check-s3">
+                                    <li class="text-white check-yellow">
+                                        Token Sale<br/>
+                                        500,000,000 LSC(50%)
+                                    </li>
+                                    <li class="text-white check-mint">
+                                        Strategic Development<br/>
+                                        250,000,000 LSC(25%)
+                                    </li>
+                                    <li class="text-white check-pink">
+                                        Team and Advisory<br/>
+                                        80,000,000 LSC(8%)
+                                    </li>
+                                    <li class="text-white check-red">
+                                        Airdrop<br/>
+                                        10,000,000 LSC(1%)
+                                    </li>
+                                    <li class="text-white check-blue">
+                                        Partnerships<br/>
+                                        80,000,000 LSC(8%)
+                                    </li>
+                                    <li class="text-white check-violet">
+                                        Marketing<br/>
+                                        80,000,000 LSC(8%)
+                                    </li>
+                                </ul>
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .block @@ee -->
+                </div>
+            </section>
+
+            <section id="launchpad" class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5 text-white pr-3 pb-5">
+                            <h3 class="text-white">
+                                LetStudy Token <span class="d-inline-block">Affiliate Program</span>
+                            </h3>
+                            <div class="text-white mb-3">
+                                Share the LSC Launchpad ICO with friends by sending your unique referral link.
+                            </div>
+                            <div class="text-white mb-3">
+                                <div class="text-white fs-lg font-weight-bold">
+                                    20% of BNB invested
+                                </div>
+                                <div class="fs-sm">
+                                    You can earn 20% commission when you invite your friends to LetStudy
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 animated" data-animate="fadeInUp" data-delay=".8">
-                                <div class="feature feature-center card card-full-lg card-md flex-center px-1">
-                                    <div class="feature-icon feature-icon-lg feature-icon-lg-s2">
-                                        <img src="source/ic_leteducation.svg" alt="feature">
+                            <div class="text-white mb-3">
+                                <div class="text-white fs-lg font-weight-bold">
+                                    30% of LSC invested
+                                </div>
+                                <div class="fs-sm">
+                                    You can earn 30% commission when you invite your friends to LetStudy
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="launchpad mt-0 animated" data-animate="fadeInUp" data-delay=".2">
+                                <div class="lp__upper" id="lp__upper">
+                                    <img alt="letstudy token logo circle" src="source/ic_token_circle.svg"/>
+                                </div>
+                                <div class="lp__header">
+                                    <div class="lp__token_name">
+                                        <img alt="letstudy token logo circle" src="source/ic_token_circle.svg"/>
+                                        LetStudy Token
                                     </div>
-                                    <div class="feature-text feature-text-s8">
-                                        <a class="menu-link nav-link" href="#token">
-                                            <h5>
-                                                LETSTUDY PAYMENT - LSC
-                                            </h5>
-                                        </a>
+                                    <div class="lp__phase_title">
+                                        Launchpad
+                                        <span id='lp__phase_title'>Phase 1</span>
                                     </div>
                                 </div>
-                            </div><!-- .col -->
-                        </div>
-                        <!-- .row -->
-                    </div><!-- .block @@ee -->
-                </div>
-            </section>
-
-            <section id='lettutor' class='section position-relative overflow-hidden'>
-                <div class="circle-animation bg_left_flow z-depth-1 animated fadeIn" data-animate="fadeIn" data-delay="1.55" style="visibility: visible; animation-delay: 1.55s;">
-                    <div class="circle-animation-l1 ca">
-                        <span class="circle-animation-l1-d1 ca-dot ca-color-1"></span>
-                        <span class="circle-animation-l1-d2 ca-dot ca-color-2"></span>
-                        <span class="circle-animation-l1-d3 ca-dot ca-color-3"></span>
-                        <span class="circle-animation-l1-d4 ca-dot ca-color-1"></span>
-                        <span class="circle-animation-l1-d5 ca-dot ca-color-2"></span>
-                        <span class="circle-animation-l1-d6 ca-dot ca-color-3"></span>
-                    </div>
-                    <div class="circle-animation-l2 ca">
-                        <span class="circle-animation-l2-d1 ca-dot ca-color-1"></span>
-                        <span class="circle-animation-l2-d2 ca-dot ca-color-3"></span>
-                        <span class="circle-animation-l2-d3 ca-dot ca-color-2"></span>
-                        <span class="circle-animation-l2-d4 ca-dot ca-color-1"></span>
-                        <span class="circle-animation-l2-d5 ca-dot ca-color-2"></span>
-                    </div>
-                    <div class="circle-animation-l3 ca">
-                        <span class="circle-animation-l3-d1 ca-dot ca-color-1"></span>
-                        <span class="circle-animation-l3-d2 ca-dot ca-color-3"></span>
-                        <span class="circle-animation-l3-d3 ca-dot ca-color-2"></span>
-                        <span class="circle-animation-l3-d4 ca-dot ca-color-1"></span>
-                        <span class="circle-animation-l3-d5 ca-dot ca-color-2"></span>
-                    </div>
-                </div>
-                <div class="container container-xxl my-5">
-                    <!-- Block @@ss -->
-                    <div class="nk-block nk-block-lg nk-block-features-s2 animated" data-animate="fadeInUp" data-delay=".4">
-                        <h1 class="text-center tc-primary mb-4">Let Tutor</h1>
-                        <div class="row align-items-center flex-row-reverse gutter-vr-30px">
-                            <div class="col-md-6 col-lg-7">
-                                <img alt="lettutor" src="source/lettutor_mvp_illustration.png" alt="gfx">
-                            </div><!-- .col -->
-                            <div class="col-md-6 col-lg-5">
-                                <!-- Section Head @@ss -->
-                                <div class="nk-block-text">
-                                    <h3 class="title mb-0">1-on-1 Online Tutoring Platform</h3>
-                                    <div class="mb-4">
-                                        <a class="font-weight-bold fs-lg" target="_blank" href="https://lettutor.com/">lettutor.com</a>
+                                <div class="lp__live_indicator">
+                                    <div class="lp__current_price">
+                                        Price of
+                                        <span id="lp__current_price_value">$0 USD</span>
+                                        per
+                                        <span>1 LSC</span>
                                     </div>
-                                    <p class="fs-lg">Peer-to-peer face-to-face learning platform via video conference with interaction between teachers and learners</p>
-                                    <div class="mb-5 d-flex">
-                                        <a class="btn btn-rg btn-grad btn-grad-alt mr-4 d-block align-items-center d-flex text-white" target="_blank" href="https://lettutor.com/">Web App</a>
-                                        <a class="store-button mr-4"
-                                           target="_blank"
-                                           href="https://apps.apple.com/vn/app/lettutor-learn-english-online/id1582277287">
-                                            <img alt="letlearn ios app" src="source/app_store.svg"/>
-                                        </a>
-                                        <a class="store-button"
-                                           target="_blank"
-                                           href="https://play.google.com/store/apps/details?id=com.let.tutoring">
-                                            <img alt="letlearn android app" src="source/google_play.svg"/>
-                                        </a>
+                                    <div class="lp__live_indicator_box">
+                                        <div class="lp__live_now">
+                                            <div></div>
+                                        </div>
+                                        LIVE
                                     </div>
                                 </div>
-                            </div><!-- .col -->
-                        </div><!-- .row -->
-                    </div><!-- .block @@ee -->
-                    <!-- Block @@ss -->
-                </div>
-
-                <div class="container">
-                    <h3 class="text-center mb-4"><span class="primary-highlighted">3 Simple steps</span> to join LetTutor class</h3>
-                    <div class="row text-center">
-                        <div class="col-sm-4 step-by-step">
-                            <img alt="let tutor find a tutor" class="rounded-circle mb-3" src="source/ic_lettutor_search.svg" width="140" height="140">
-                            <h4 class="step-by-step-title">Find a tutor</h4>
-                            <p>Choose your ideal teacher and experience what it’s like to learn with Let Tutor
-                            </p>
-                        </div>
-                        <div class="col-sm-4 step-by-step">
-                            <img alt="let tutor book a session" class="rounded-circle mb-3" src="source/ic_lettutor_schedule.svg" width="140" height="140">
-                            <h4 class="step-by-step-title">Book a session</h4>
-                            <p>Find the perfect time for your busy schedule. Book lessons in seconds via desktop or mobile</p>
-                        </div>
-                        <div class="col-sm-4 step-by-step">
-                            <img alt="let tutor start learning" class="rounded-circle mb-3" src="source/ic_lettutor_join.svg" width="140" height="140">
-                            <h4 class="step-by-step-title">Start learning</h4>
-                            <p>When it’s lesson time, connect with your tutor through our comprehensive video platform</p>
+                                <div class="lp__sold_progress">
+                                    <div class="lp__price">
+                                        <div class="lp__raised_token">
+                                            RAISED -
+                                            <span id="lp__raised_usd">$0 USD</span>
+                                        </div>
+                                        <div class="lp__target_token">
+                                            TARGET -
+                                            <span id="lp__target_usd">$0 USD</span>
+                                        </div>
+                                    </div>
+                                    <div class="lp__progress">
+                                        <div class="lp__progress_bar" id="lp__progress_bar"></div>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="lp__price">
+                                        <div class="lp__raised_usd" id="lp__raised_token">0 Tokens</div>
+                                        <div class="lp__target_usd" id="lp__target_token">0 Tokens</div>
+                                    </div>
+                                </div>
+                                <div class='lp__next_phase_price'>
+                                    Price per LSC in <span class="lp_highlighted">the next phase</span> will be
+                                    <span id='lp__next_price' class="lp_highlighted">$0 USD!</span>
+                                    - Increase by
+                                    <span id='lp__increase'>0%</span>
+                                </div>
+                                <div class="lp__total_raised">
+                                    <span class="lp__total_raised_value" id="lp__total_raised_value">$0 USD</span>
+                                    raised in total
+                                </div>
+                                <div class='text-center'>
+                                    <a data-url='http://app.letstudy.io/' href='http://app.letstudy.io/' target='_blank'
+                                       class='btn__buy_token btn btn-primary font-weight-bold'>Buy
+                                        Now</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
+        </div>
 
-            <section id='letlearn' class='section position-relative overflow-hidden'>
-                <div class="circle-animation bg_right_flow z-depth-1 animated fadeIn" data-animate="fadeIn" data-delay="1.55" style="visibility: visible; animation-delay: 1.55s;">
-                    <div class="circle-animation-l1 ca">
-                        <span class="circle-animation-l1-d1 ca-dot ca-color-1"></span>
-                        <span class="circle-animation-l1-d2 ca-dot ca-color-2"></span>
-                        <span class="circle-animation-l1-d3 ca-dot ca-color-3"></span>
-                        <span class="circle-animation-l1-d4 ca-dot ca-color-1"></span>
-                        <span class="circle-animation-l1-d5 ca-dot ca-color-2"></span>
-                        <span class="circle-animation-l1-d6 ca-dot ca-color-3"></span>
-                    </div>
-                    <div class="circle-animation-l2 ca">
-                        <span class="circle-animation-l2-d1 ca-dot ca-color-1"></span>
-                        <span class="circle-animation-l2-d2 ca-dot ca-color-3"></span>
-                        <span class="circle-animation-l2-d3 ca-dot ca-color-2"></span>
-                        <span class="circle-animation-l2-d4 ca-dot ca-color-1"></span>
-                        <span class="circle-animation-l2-d5 ca-dot ca-color-2"></span>
-                    </div>
-                    <div class="circle-animation-l3 ca">
-                        <span class="circle-animation-l3-d1 ca-dot ca-color-1"></span>
-                        <span class="circle-animation-l3-d2 ca-dot ca-color-3"></span>
-                        <span class="circle-animation-l3-d3 ca-dot ca-color-2"></span>
-                        <span class="circle-animation-l3-d4 ca-dot ca-color-1"></span>
-                        <span class="circle-animation-l3-d5 ca-dot ca-color-2"></span>
-                    </div>
-                </div>
-                <div class="container container-xxl my-5">
-                    <div class="nk-block nk-block-lg nk-block-features-s2 pt-5 animated" data-animate="fadeInUp" data-delay=".4">
-                        <h1 class="text-center tc-primary mb-4">Let Learn</h1>
-                        <div class="row align-items-center gutter-vr-30px">
-                            <div class="col-md-6 col-lg-7 p-lg-5">
-                                <img alt="letlearn" src="source/mvp_letlearn.png" alt="gfx">
-                            </div><!-- .col -->
-                            <div class="col-md-6 col-lg-5">
-                                <!-- Section Head @@ss -->
-                                <div class="nk-block-text">
-                                    <h3 class="title mb-0">Online Course Learning</h3>
-                                    <div class="mb-4">
-                                        <a class="font-weight-bold fs-lg" target="_blank" href="https://letlearn.net/">letlearn.net</a>
-                                    </div>
-                                    <p class="fs-lg">The instructors can create courses on LetLearn by uploading videos, PDFs, audio with course creation tools
-                                    </p>
-                                    <div class="mb-5 d-flex">
-                                        <a class="btn btn-rg btn-grad btn-grad-alt mr-4 d-block align-items-center d-flex text-white" target="_blank" href="https://letlearn.net/">Web App</a>
-                                        <a class="store-button mr-4" onclick="alert('App is coming soon!');">
-                                            <img alt="lettutor ios app" src="source/app_store.svg" />
-                                        </a>
-                                        <a class="store-button" onclick="alert('App is coming soon!');">
-                                            <img alt="lettutor android app" src="source/google_play.svg" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div><!-- .col -->
-                        </div><!-- .row -->
-                    </div><!-- .block @@ee -->
-                </div>
-            </section>
+        <div class="slider-logos bg-light">
+            <div class="slide">
+                <a href="https://www.crypto-rating.com/ico-rating/letstudy/" rel="noreferrer" target="_blank"
+                   title="LetStudy - Crypto Rating" class="brand-logo"><img alt="ic_crypto_rating" loading="lazy"
+                                                                            src="./source/ic_crypto_rating.svg"></a>
+            </div>
+            <div class="slide">
+                <a href="https://coincodex.com/ico/letstudy/" rel="noreferrer" target="_blank"
+                   title="LetStudy - Coincodex" class="brand-logo"><img alt="ic_coincodex" loading="lazy"
+                                                                        src="./source/ic_coincodex.svg"></a>
+            </div>
+            <div class="slide">
+                <a href="https://icoholder.com/en/letstudy-1003026" rel="noreferrer" target="_blank"
+                   title="LetStudy - ICO Holder" class="brand-logo"><img alt="ic_icoholder" loading="lazy"
+                                                                         src="./source/ic_icoholder.svg"></a>
+            </div>
+            <div class="slide">
+                <a href="https://icomarks.com/ico/letstudy" rel="noreferrer" target="_blank"
+                   title="LetStudy - ICO Marks" class="brand-logo"><img alt="ic_icomarks" loading="lazy"
+                                                                        src="./source/ic_icomarks.svg"></a>
+            </div>
+            <div class="slide">
+                <a href="https://topicolist.com/letstudy" rel="noreferrer" target="_blank"
+                   title="LetStudy - Top ICO List" class="brand-logo"><img alt="ic_top_ico_list" loading="lazy"
+                                                                           src="./source/ic_top_ico_list.svg"></a>
+            </div>
+            <div class="slide">
+                <a href="https://ico.coincheckup.com/letstudy/" rel="noreferrer" target="_blank"
+                   title="LetStudy - CoinCheckUp" class="brand-logo"><img alt="ic_coincheckup" loading="lazy"
+                                                                          src="./source/ic_coincheckup.svg"></a>
+            </div>
+        </div>
 
-            <div class="bg-partner">
-                <section class="section" id="token">
-                    <div class="container">
-                        <div class="section-head section-head-s9">
-                            <h2 class="title text-center text-white">Token Distribution</h2>
-                        </div>
-                        <!-- Block @@ss -->
-                        <div class="nk-block nk-block-text-wrap animated" data-animate="fadeInUp" data-delay=".4">
-                            <div class="row align-items-center gutter-vr-30px">
-                                <div class="col-lg-5 col-md-12">
-                                    <div class="nk-block-img">
-                                        <img alt="letstudy token distribution chart" src="source/token_distribution_chart.svg">
-                                    </div>
-                                </div><!-- .col -->
-                                <div class="col-lg-7 col-md-12">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6 col-sm-6">
-                                            <ul class="list list-check list-check-s3">
-                                                <li class="text-white check-yellow">
-                                                    Token Sale<br />
-                                                    500,000,000 LSC(50%)
-                                                </li>
-                                                <li class="text-white check-mint">
-                                                    Strategic Development<br />
-                                                    250,000,000 LSC(25%)
-                                                </li>
-                                                <li class="text-white check-pink">
-                                                    Team and Advisory<br />
-                                                    80,000,000 LSC(8%)
+        <section class="section bg-white" id="roadmap">
+            <div class="container">
+                <div class="section-head section-head-s9">
+                    <h4 class="text-center tc-primary">Our Roadmap</h4>
+                    <h2 class="text-center title">The Roadmap to success</h2>
+                </div>
+                <!-- Section Head @@ss -->
+                <!-- Block @@ss -->
+                <div class="nk-block nk-block-left">
+                    <div class="roadmap-all mgb-m50 animated" data-animate="fadeInUp" data-delay=".4">
+                        <div class="roadmap-wrap roadmap-wrap-s1 roadmap-wrap-s1-alt mb-0 ml-0">
+                            <div class="row no-gutters">
+                                <div class="col-lg">
+                                    <div class="roadmap roadmap-s1  roadmap-s1-alt roadmap-done text-lg-center">
+                                        <div class="roadmap-step roadmap-step-s1">
+                                            <div class="roadmap-head roadmap-head-s1">
+                                                <span class="roadmap-time roadmap-time-s1">2020 Q4</span>
+                                                <span class="roadmap-title roadmap-title-s1">Concept</span>
+                                            </div>
+                                            <ul class="roadmap-step-list roadmap-step-list-s1">
+                                                <li>Concept Generation</li>
+                                                <li>Settlement of LetStudy team<br/> Ecosystem infrastructure<br/>Main
+                                                    site created
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-6">
-                                            <div class="nk-block-text">
-                                                <ul class="list list-check list-check-s3">
-                                                    <li class="text-white check-red">
-                                                        Airdrop<br />
-                                                        10,000,000 LSC(1%)
-                                                    </li>
-                                                    <li class="text-white check-blue">
-                                                        Partnerships<br />
-                                                        80,000,000 LSC(8%)
-                                                    </li>
-                                                    <li class="text-white check-violet">
-                                                        Marketing<br />
-                                                        80,000,000 LSC(8%)
-                                                    </li>
-                                                </ul>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-lg">
+                                    <div class="roadmap roadmap-s1  roadmap-s1-alt roadmap-done text-lg-center">
+                                        <div class="roadmap-step roadmap-step-s1">
+                                            <div class="roadmap-head roadmap-head-s1">
+                                                <span class="roadmap-time roadmap-time-s1">2021 Q1</span>
+                                                <span class="roadmap-title roadmap-title-s1">Research</span>
                                             </div>
+                                            <ul class="roadmap-step-list roadmap-step-list-s1">
+                                                <li>E-learning platform started</li>
+                                                <li>Promotion video created <br/>White paper completion</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-lg">
+                                    <div class="roadmap roadmap-s1  roadmap-s1-alt roadmap-done text-lg-center">
+                                        <div class="roadmap-step roadmap-step-s1">
+                                            <div class="roadmap-head roadmap-head-s1">
+                                                <span class="roadmap-time roadmap-time-s1">2021 Q2</span>
+                                                <span class="roadmap-title roadmap-title-s1">Launching MVP</span>
+                                            </div>
+                                            <ul class="roadmap-step-list roadmap-step-list-s1">
+                                                <li>LetTutor started</li>
+                                                <li>Airdrop LetStudy coin <br/> Launching MVP LetLearn <br/> Gain the
+                                                    first 50 video courses for LetLearn
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-lg">
+                                    <div class="roadmap roadmap-current roadmap-s1 roadmap-s1-alt text-lg-center">
+                                        <div class="roadmap-step roadmap-step-s1">
+                                            <div class="roadmap-head roadmap-head-s1">
+                                                <span class="roadmap-time roadmap-time-s1">2021 Q3</span>
+                                                <span class="roadmap-title roadmap-title-s1">Token Sales</span>
+                                            </div>
+                                            <ul class="roadmap-step-list roadmap-step-list-s1">
+                                                <li>Launchpad ICO</li>
+                                                <li>Listing on CoinMarketCap <br/> Release LetLearn on
+                                                    Apple/PlayStore<br/>Marketing for LetLearn<br/>Launching LetTutor
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div><!-- .col -->
                             </div><!-- .row -->
-                        </div><!-- .block @@ee -->
-                    </div>
-                </section>
-
-                <section id="launchpad" class="section">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-5 text-white pr-3 pb-5">
-                                <h3 class="text-white">
-                                    LetStudy Token Affiliate Program
-                                </h3>
-                                <div class="text-white mb-3">
-                                    Share the LSC Launchpad ICO with friends by sending your unique referral link.
-                                </div>
-                                <div class="text-white mb-3">
-                                    <div class="text-white fs-lg font-weight-bold">
-                                        20% of BNB invested
-                                    </div>
-                                    <div class="fs-sm">
-                                        You can earn 20% commission when you invite your friends to LetStudy
-                                    </div>
-                                </div>
-                                <div class="text-white mb-3">
-                                    <div class="text-white fs-lg font-weight-bold">
-                                        30% of LSC invested
-                                    </div>
-                                    <div class="fs-sm">
-                                        You can earn 30% commission when you invite your friends to LetStudy
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-7">
-                                <div class="launchpad mt-0 animated" data-animate="fadeInUp" data-delay=".2">
-                                    <div class="lp__upper" id="lp__upper">
-                                        <img alt="letstudy token logo circle" src="source/ic_token_circle.svg"/>
-                                    </div>
-                                    <div class="lp__header">
-                                        <div class="lp__token_name">
-                                            <img alt="letstudy token logo circle" src="source/ic_token_circle.svg" />
-                                            LetStudy Token
-                                        </div>
-                                        <div class="lp__phase_title">
-                                            Launchpad
-                                            <span id='lp__phase_title'>Phase 1</span>
-                                        </div>
-                                    </div>
-                                    <div class="lp__live_indicator">
-                                        <div class="lp__current_price">
-                                            Price of
-                                            <span id="lp__current_price_value">$0 USD</span>
-                                            per
-                                            <span>1 LSC</span>
-                                        </div>
-                                        <div class="lp__live_indicator_box">
-                                            <div class="lp__live_now">
-                                                <div></div>
+                        </div>
+                        <div class="roadmap-wrap roadmap-wrap-s1 roadmap-wrap-s1-alt mb-0 ml-0">
+                            <div class="row flex-row-reverse no-gutters">
+                                <div class="col-lg">
+                                    <div class="roadmap roadmap-s1  roadmap-s1-alt text-lg-center">
+                                        <div class="roadmap-step roadmap-step-s1">
+                                            <div class="roadmap-head roadmap-head-s1">
+                                                <span class="roadmap-time roadmap-time-s1">2021 Q4</span>
+                                                <span class="roadmap-title roadmap-title-s1">NFT Token & Marketing</span>
                                             </div>
-                                            LIVE
+                                            <ul class="roadmap-step-list roadmap-step-list-s1">
+                                                <li>LetStarter started<br/>LetExchange started<br/>The NFT to tokenize
+                                                    video course
+                                                </li>
+                                                <li>Integrate LSC payment<br/>Mass Marketing for LetTutor<br/>Gain at
+                                                    least 5.000 videos call hours for LetTutor
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
-                                    <div class="lp__sold_progress">
-                                        <div class="lp__price">
-                                            <div class="lp__raised_token">
-                                                RAISED -
-                                                <span id="lp__raised_usd">$0 USD</span>
+                                </div><!-- .col -->
+                                <div class="col-lg">
+                                    <div class="roadmap roadmap-s1  roadmap-s1-alt text-lg-center">
+                                        <div class="roadmap-step roadmap-step-s1">
+                                            <div class="roadmap-head roadmap-head-s1">
+                                                <span class="roadmap-time roadmap-time-s1">2022 Q1</span>
+                                                <span class="roadmap-title roadmap-title-s1">LetStarter & LetExchange Development</span>
                                             </div>
-                                            <div class="lp__target_token">
-                                                TARGET -
-                                                <span id="lp__target_usd">$0 USD</span>
+                                            <ul class="roadmap-step-list roadmap-step-list-s1">
+                                                <li>Build features for LetStarter<br/>
+                                                    Build features for LetExchange
+                                                </li>
+                                                <li>Gain 1.000 instructors and 50.000 students for LetLearn
+                                                    <br/>Gain 1.000 instructors & 60.000 video call tutoring hours per
+                                                    month for LetTutor
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-lg">
+                                    <div class="roadmap roadmap-s1  roadmap-s1-alt text-lg-center">
+                                        <div class="roadmap-step roadmap-step-s1">
+                                            <div class="roadmap-head roadmap-head-s1">
+                                                <span class="roadmap-time roadmap-time-s1">2022 Q2</span>
+                                                <span class="roadmap-title roadmap-title-s1">LetStarter & LetExchange Launching</span>
                                             </div>
-                                        </div>
-                                        <div class="lp__progress">
-                                            <div class="lp__progress_bar" id="lp__progress_bar"></div>
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                            <span></span>
-                                        </div>
-                                        <div class="lp__price">
-                                            <div class="lp__raised_usd" id="lp__raised_token">0 Tokens</div>
-                                            <div class="lp__target_usd" id="lp__target_token">0 Tokens</div>
+                                            <ul class="roadmap-step-list roadmap-step-list-s1">
+                                                <li>Launching LetStarer<br/>Launching LetExchange</li>
+                                                <li>Gain 10.000 instructors and 500.000 students for LetLearn
+                                                    <br/>Gain 10.000 instructors & 600.000 video call tutoring hours per
+                                                    month for LetTutor
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
-                                    <div class='lp__next_phase_price'>
-                                        Price per LSC in the next phase will be
-                                        <span id='lp__next_price'>$0 USD!</span>
-                                        - Increase by
-                                        <span id='lp__increase'>0%</span>
+                                </div><!-- .col -->
+                                <div class="col-lg">
+                                    <div class="roadmap roadmap-s1  roadmap-s1-alt text-lg-center">
+                                        <div class="roadmap-step roadmap-step-s1">
+                                            <div class="roadmap-head roadmap-head-s1">
+                                                <span class="roadmap-time roadmap-time-s1">2022 Q3</span>
+                                                <span class="roadmap-title roadmap-title-s1">Full Ecosystem</span>
+                                            </div>
+                                            <ul class="roadmap-step-list roadmap-step-list-s1">
+                                                <li>Full ecosystem completed</li>
+                                            </ul>
+                                        </div>
                                     </div>
-                                    <div class="lp__total_raised">
-                                        <span class="lp__total_raised_value" id="lp__total_raised_value">$0 USD</span>
-                                        raised in total
-                                    </div>
-                                    <div class='text-center'>
-                                        <a data-url='http://app.letstudy.io/' href='http://app.letstudy.io/' target='_blank' class='btn__buy_token btn btn-rg btn-grad btn-grad-alt font-weight-bold'>Buy Now</a>
-                                    </div>
-                                </div>
-                            </div>
+                                </div><!-- .col -->
+                            </div><!-- .row -->
                         </div>
                     </div>
-                </section>
+                </div><!-- .block @@ee -->
             </div>
+        </section>
 
-            <div class="slider-logos bg-light">
-                <div class="slide">
-                    <a href="https://www.crypto-rating.com/ico-rating/letstudy/" rel="noreferrer" target="_blank" title="LetStudy - Crypto Rating" class="brand-logo"><img alt="ic_crypto_rating" loading="lazy" src="./source/ic_crypto_rating.svg"></a>
+        <section class="section" id="team">
+            <div class="container">
+                <div class="section-head section-head-s9">
+                    <h4 class="text-center tc-primary">Our Leaders</h4>
+                    <h2 class="text-center title">Meet the founding team behind LetStudy</h2>
                 </div>
-                <div class="slide">
-                    <a href="https://coincodex.com/ico/letstudy/" rel="noreferrer" target="_blank" title="LetStudy - Coincodex" class="brand-logo"><img alt="ic_coincodex" loading="lazy" src="./source/ic_coincodex.svg"></a>
-                </div>
-                <div class="slide">
-                    <a href="https://icoholder.com/en/letstudy-1003026" rel="noreferrer" target="_blank" title="LetStudy - ICO Holder" class="brand-logo"><img alt="ic_icoholder" loading="lazy" src="./source/ic_icoholder.svg"></a>
-                </div>
-                <div class="slide">
-                    <a href="https://icomarks.com/ico/letstudy" rel="noreferrer" target="_blank" title="LetStudy - ICO Marks" class="brand-logo"><img alt="ic_icomarks" loading="lazy" src="./source/ic_icomarks.svg"></a>
-                </div>
-                <div class="slide">
-                    <a href="https://topicolist.com/letstudy" rel="noreferrer" target="_blank" title="LetStudy - Top ICO List" class="brand-logo"><img alt="ic_top_ico_list" loading="lazy" src="./source/ic_top_ico_list.svg"></a>
-                </div>
-                <div class="slide">
-                    <a href="https://ico.coincheckup.com/letstudy/" rel="noreferrer" target="_blank" title="LetStudy - CoinCheckUp" class="brand-logo"><img alt="ic_coincheckup" loading="lazy" src="./source/ic_coincheckup.svg"></a>
-                </div>
-            </div>
-
-            <section class="section bg-white" id="roadmap">
-                <div class="container">
-                    <div class="section-head section-head-s9">
-                        <h4 class="text-center tc-primary">Our Roadmap</h4>
-                        <h2 class="text-center title">The Roadmap to success</h2>
-                    </div>
-                    <!-- Section Head @@ss -->
-                    <!-- Block @@ss -->
-                    <div class="nk-block nk-block-left">
-                        <div class="roadmap-all mgb-m50 animated" data-animate="fadeInUp" data-delay=".4">
-                            <div class="roadmap-wrap roadmap-wrap-s1 roadmap-wrap-s1-alt mb-0 ml-0">
-                                <div class="row no-gutters">
-                                    <div class="col-lg">
-                                        <div class="roadmap roadmap-s1  roadmap-s1-alt roadmap-done text-lg-center">
-                                            <div class="roadmap-step roadmap-step-s1">
-                                                <div class="roadmap-head roadmap-head-s1">
-                                                    <span class="roadmap-time roadmap-time-s1">2020 Q4</span>
-                                                    <span class="roadmap-title roadmap-title-s1">Concept</span>
-                                                </div>
-                                                <ul class="roadmap-step-list roadmap-step-list-s1">
-                                                    <li>Concept Generation</li>
-                                                    <li>Settlement of LetStudy team<br /> Ecosystem infrastructure<br />Main site created</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div><!-- .col -->
-                                    <div class="col-lg">
-                                        <div class="roadmap roadmap-s1  roadmap-s1-alt roadmap-done text-lg-center">
-                                            <div class="roadmap-step roadmap-step-s1">
-                                                <div class="roadmap-head roadmap-head-s1">
-                                                    <span class="roadmap-time roadmap-time-s1">2021 Q1</span>
-                                                    <span class="roadmap-title roadmap-title-s1">Research</span>
-                                                </div>
-                                                <ul class="roadmap-step-list roadmap-step-list-s1">
-                                                    <li>E-learning platform started</li>
-                                                    <li>Promotion video created <br />White paper completion</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div><!-- .col -->
-                                    <div class="col-lg">
-                                        <div class="roadmap roadmap-s1  roadmap-s1-alt roadmap-done text-lg-center">
-                                            <div class="roadmap-step roadmap-step-s1">
-                                                <div class="roadmap-head roadmap-head-s1">
-                                                    <span class="roadmap-time roadmap-time-s1">2021 Q2</span>
-                                                    <span class="roadmap-title roadmap-title-s1">Launching MVP</span>
-                                                </div>
-                                                <ul class="roadmap-step-list roadmap-step-list-s1">
-                                                    <li>LetTutor started </li>
-                                                    <li>Airdrop LetStudy coin <br /> Launching MVP LetLearn <br /> Gain the first 50 video courses for LetLearn</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div><!-- .col -->
-                                    <div class="col-lg">
-                                        <div class="roadmap roadmap-current roadmap-s1 roadmap-s1-alt text-lg-center">
-                                            <div class="roadmap-step roadmap-step-s1">
-                                                <div class="roadmap-head roadmap-head-s1">
-                                                    <span class="roadmap-time roadmap-time-s1">2021 Q3</span>
-                                                    <span class="roadmap-title roadmap-title-s1">Token Sales</span>
-                                                </div>
-                                                <ul class="roadmap-step-list roadmap-step-list-s1">
-                                                    <li>Launchpad ICO</li>
-                                                    <li>Listing on CoinMarketCap <br /> Release LetLearn on Apple/PlayStore<br />Marketing for LetLearn<br />Launching LetTutor</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div><!-- .col -->
-                                </div><!-- .row -->
-                            </div>
-                            <div class="roadmap-wrap roadmap-wrap-s1 roadmap-wrap-s1-alt mb-0 ml-0">
-                                <div class="row flex-row-reverse no-gutters">
-                                    <div class="col-lg">
-                                        <div class="roadmap roadmap-s1  roadmap-s1-alt text-lg-center">
-                                            <div class="roadmap-step roadmap-step-s1">
-                                                <div class="roadmap-head roadmap-head-s1">
-                                                    <span class="roadmap-time roadmap-time-s1">2021 Q4</span>
-                                                    <span class="roadmap-title roadmap-title-s1">NFT Token & Marketing</span>
-                                                </div>
-                                                <ul class="roadmap-step-list roadmap-step-list-s1">
-                                                    <li>LetStarter started<br />LetExchange started<br />The NFT to tokenize video course</li>
-                                                    <li>Integrate LSC payment<br />Mass Marketing for LetTutor<br />Gain at least 5.000 videos call hours for LetTutor</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div><!-- .col -->
-                                    <div class="col-lg">
-                                        <div class="roadmap roadmap-s1  roadmap-s1-alt text-lg-center">
-                                            <div class="roadmap-step roadmap-step-s1">
-                                                <div class="roadmap-head roadmap-head-s1">
-                                                    <span class="roadmap-time roadmap-time-s1">2022 Q1</span>
-                                                    <span class="roadmap-title roadmap-title-s1">LetStarter & LetExchange Development</span>
-                                                </div>
-                                                <ul class="roadmap-step-list roadmap-step-list-s1">
-                                                    <li>Build features for LetStarter<br />
-                                                        Build features for LetExchange</li>
-                                                    <li>Gain 1.000 instructors and 50.000 students for LetLearn
-                                                        <br />Gain 1.000 instructors & 60.000 video call tutoring hours per month for LetTutor
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div><!-- .col -->
-                                    <div class="col-lg">
-                                        <div class="roadmap roadmap-s1  roadmap-s1-alt text-lg-center">
-                                            <div class="roadmap-step roadmap-step-s1">
-                                                <div class="roadmap-head roadmap-head-s1">
-                                                    <span class="roadmap-time roadmap-time-s1">2022 Q2</span>
-                                                    <span class="roadmap-title roadmap-title-s1">LetStarter & LetExchange Launching</span>
-                                                </div>
-                                                <ul class="roadmap-step-list roadmap-step-list-s1">
-                                                    <li>Launching LetStarer<br />Launching LetExchange</li>
-                                                    <li>Gain 10.000 instructors and 500.000 students for LetLearn
-                                                        <br />Gain 10.000 instructors & 600.000 video call tutoring hours per month for LetTutor
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div><!-- .col -->
-                                    <div class="col-lg">
-                                        <div class="roadmap roadmap-s1  roadmap-s1-alt text-lg-center">
-                                            <div class="roadmap-step roadmap-step-s1">
-                                                <div class="roadmap-head roadmap-head-s1">
-                                                    <span class="roadmap-time roadmap-time-s1">2022 Q3</span>
-                                                    <span class="roadmap-title roadmap-title-s1">Full Ecosystem</span>
-                                                </div>
-                                                <ul class="roadmap-step-list roadmap-step-list-s1">
-                                                    <li>Full ecosystem completed</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div><!-- .col -->
-                                </div><!-- .row -->
-                            </div>
-                        </div>
-                    </div><!-- .block @@ee -->
-                </div>
-            </section>
-
-            <section class="section" id="team">
-                <div class="container">
-                    <div class="section-head section-head-s9">
-                        <h4 class="text-center tc-primary">Our Leaders</h4>
-                        <h2 class="text-center title">Meet the founding team behind LetStudy</h2>
-                    </div>
-                    <!-- Block @@ss -->
-                    <div class="nk-block nk-block-left nk-block-team-list team-list animated" data-animate="fadeInUp" data-delay=".4">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="team team-s4 round bg-white ml-0">
-                                    <div class="team-photo team-photo-s1 round-full">
-                                        <a class="link link-primary" target="_blank" href="https://www.linkedin.com/in/hari-pham-70958172/">
-                                            <div class="profile-link"><h6 class="text-white">in</h6></div>
-                                        </a>
-                                        <img alt="letstudy Hari ceo" src="./source/hai_ceo.png" class="round-full">
-                                    </div>
-                                    <h5 class="team-name">Hari Pham</h5>
-                                    <span class="team-position tc-primary">CEO &amp; Lead Blockchain</span>
-                                    <div class="team-desc">
-                                        <p>Hari is an entrepreneur and a lecturer at VietNam National University. He works both in the software industry and also at the university to bridge the gap between university and software industry and apply the research that he does at the university.</p>
-                                    </div>
-                                </div>
-                            </div><!-- .col -->
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="team team-s4 round bg-white ml-0">
-                                    <div class="team-photo team-photo-s1 round-full">
-                                        <a class="link link-primary" target="_blank" href="https://www.linkedin.com/in/khanh-nh/">
-                                            <div class="profile-link"><h6 class="text-white">in</h6></div>
-                                        </a>
-                                        <img alt="letstudy Khanh cto" src="./source/khanh_cto.png" class="round-full">
-                                    </div>
-                                    <h5 class="team-name">Khanh Nguyen</h5>
-                                    <span class="team-position tc-primary">CTO &amp; Lead Blockchain</span>
-                                    <div class="team-desc">
-                                        <p>Khanh Nguyen is a lecturer at Vietnam National University. He is a Blockchain Enthusiast with holistic understanding of the fundamental aspects of blockchain technology and prospective use-cases.</p>
-                                    </div>
-                                </div>
-                            </div><!-- .col -->
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="team team-s4 round bg-white ml-0">
-                                    <div class="team-photo team-photo-s1 round-full">
-                                        <a class="link link-primary" target="_blank" href="#">
-                                            <div class="profile-link bg-trans"><h6 class="text-white"></h6></div>
-                                        </a>
-                                        <img alt="letstudy Anh Tran" src="./source/anh_community_manager.png" class="round-full">
-                                    </div>
-                                    <h5 class="team-name">Anh Tran</h5>
-                                    <span class="team-position tc-primary">Community Manager</span>
-                                    <div class="team-desc">
-                                        <p>With 6 years of experience in community industry, she used to be in charge of Community manager in NCT and JG venture.</p>
-                                    </div>
-                                </div>
-                            </div><!-- .col -->
-                        </div><!-- .row -->
-                    </div><!-- .block @@ee -->
-                </div>
-            </section>
-
-            <!-- // -->
-            <section class="section bg-white">
                 <!-- Block @@ss -->
-                <div class="nk-block block-partners bg-partner" id="benifits">
-                    <ul class="partner-list partner-list-left partner-list-s3 flex-wrap">
-                        <li class="partner-logo partner-logo-s2">
-                            <img src="./source/link_coindesk.svg" alt="partner">
-                        </li>
-                        <li class="partner-logo partner-logo-s2">
-                            <img src="./source/binance.png" alt="partner">
-                        </li>
-                        <li class="partner-logo partner-logo-s2">
-                            <img src="./source/coingecko.png" alt="partner">
-                        </li>
-                        <li class="partner-logo partner-logo-s2">
-                            <img src="./source/pancakeswap.png" alt="partner">
-                        </li>
-                    </ul>
-                </div>
-                <!-- Block @@ee -->
-            </section>
+                <div class="nk-block nk-block-left nk-block-team-list team-list animated" data-animate="fadeInUp"
+                     data-delay=".4">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="team team-s4 round bg-white ml-0">
+                                <div class="team-photo team-photo-s1 round-full">
+                                    <a class="link link-primary" target="_blank"
+                                       href="https://www.linkedin.com/in/hari-pham-70958172/">
+                                        <div class="profile-link"><h6 class="text-white">in</h6></div>
+                                    </a>
+                                    <img alt="letstudy Hari ceo" src="./source/hai_ceo.png" class="round-full">
+                                </div>
+                                <h5>Hari Pham</h5>
+                                <h6 class="tc-primary member-position">CEO &amp; Lead Blockchain</h6>
+                                <div class="team-desc">
+                                    <p>Hari is an entrepreneur and a lecturer at VietNam National University. He works
+                                        both in the software industry and also at the university to bridge the gap
+                                        between university and software industry and apply the research that he does at
+                                        the university.</p>
+                                </div>
+                            </div>
+                        </div><!-- .col -->
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="team team-s4 round bg-white ml-0">
+                                <div class="team-photo team-photo-s1 round-full">
+                                    <a class="link link-primary" target="_blank"
+                                       href="https://www.linkedin.com/in/khanh-nh/">
+                                        <div class="profile-link"><h6 class="text-white">in</h6></div>
+                                    </a>
+                                    <img alt="letstudy Khanh cto" src="./source/khanh_cto.png" class="round-full">
+                                </div>
+                                <h5>Khanh Nguyen</h5>
+                                <h6 class="tc-primary member-position">CTO &amp; Lead Blockchain</h6>
+                                <div class="team-desc">
+                                    <p>Khanh Nguyen is a lecturer at Vietnam National University. He is a Blockchain
+                                        Enthusiast with holistic understanding of the fundamental aspects of blockchain
+                                        technology and prospective use-cases.</p>
+                                </div>
+                            </div>
+                        </div><!-- .col -->
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="team team-s4 round bg-white ml-0">
+                                <div class="team-photo team-photo-s1 round-full">
+                                    <a class="link link-primary" target="_blank" href="#">
+                                        <div class="profile-link bg-trans"><h6 class="text-white"></h6></div>
+                                    </a>
+                                    <img alt="letstudy Anh Tran" src="./source/anh_community_manager.png"
+                                         class="round-full">
+                                </div>
+                                <h5>Anh Tran</h5>
+                                <h6 class="tc-primary member-position">Community Manager</h6>
+                                <div class="team-desc">
+                                    <p>With 6 years of experience in community industry, she used to be in charge of
+                                        Community manager in NCT and JG venture.</p>
+                                </div>
+                            </div>
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .block @@ee -->
+            </div>
+        </section>
 
-            <section class="section pt-5" id="upcoming-services">
-                <div class="container">
-                    <div class="section-head section-head-s9">
-                        <h2 class="title text-center">LetStudy upcoming services</h2>
+        <!-- // -->
+        <section class="section bg-white">
+            <!-- Block @@ss -->
+            <div class="nk-block block-partners bg-partner" id="benifits">
+                <ul class="partner-list partner-list-left partner-list-s3 flex-wrap">
+                    <li class="partner-logo partner-logo-s2">
+                        <img src="./source/link_coindesk.svg" alt="partner">
+                    </li>
+                    <li class="partner-logo partner-logo-s2">
+                        <img src="./source/binance.png" alt="partner">
+                    </li>
+                    <li class="partner-logo partner-logo-s2">
+                        <img src="./source/coingecko.png" alt="partner">
+                    </li>
+                    <li class="partner-logo partner-logo-s2">
+                        <img src="./source/pancakeswap.png" alt="partner">
+                    </li>
+                </ul>
+            </div>
+            <!-- Block @@ee -->
+        </section>
+
+        <section class="section pt-5" id="upcoming-services">
+            <div class="container">
+                <div class="section-head section-head-s9">
+                    <h2 class="title text-center">LetStudy upcoming services</h2>
+                </div>
+                <!-- Block @@ss -->
+                <div class="nk-block animated" data-animate="fadeInUp" data-delay=".4">
+                    <div class="row gutter-vr-40px justify-content-center">
+                        <div class="col-sm-6 col-md-4">
+                            <div class="feature-center card card-full round-lg shadow-none">
+                                <div class="feature-icon feature-icon-lg feature-icon-lg-s2">
+                                    <img src="source/ic_nft_distrubuted.svg" alt="feature"/>
+                                </div>
+                                <div class="feature-text feature-text-s8">
+                                    <h5>
+                                        NFT FOR DISTRIBUTED RIGHTS OF LEARNING
+                                    </h5>
+                                </div>
+                            </div>
+                        </div><!-- .col -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="feature-center card card-full round-lg shadow-none">
+                                <div class="feature-icon feature-icon-lg feature-icon-lg-s2">
+                                    <img src="source/ic_letstarter.svg" alt="feature"/>
+                                </div>
+                                <div class="feature-text feature-text-s8">
+                                    <h5>
+                                        LETSTARTER: FUNDRAISING PLATFORM
+                                    </h5>
+                                </div>
+                            </div>
+                        </div><!-- .col -->
+                        <div class="col-sm-6 col-md-4">
+                            <div class="feature-center card card-full round-lg shadow-none">
+                                <div class="feature-icon feature-icon-lg feature-icon-lg-s2">
+                                    <img src="source/ic_letexchange.svg" alt="feature"/>
+                                </div>
+                                <div class="feature-text feature-text-s8">
+                                    <h5>
+                                        LETEXCHANGE - DECENTRALIZED EXCHANGE
+                                    </h5>
+                                </div>
+                            </div>
+                        </div><!-- .col -->
+                    </div>
+                    <!-- .row -->
+                </div><!-- .block @@ee -->
+            </div>
+        </section>
+
+        <section class="section bg-white">
+            <div class="container">
+                <div class="row align-items-center gutter-vr-30px animated" data-animate="fadeInUp" data-delay=".4">
+                    <div class="col-lg-4">
+                        <h2 class="title sm-title-center">Meet the worldwide community</h2>
+                        <p class="sm-description-center">Join a fast-growing community of developers and innovators connected all over the world,
+                            building the new area of the internet.</p>
                     </div>
                     <!-- Block @@ss -->
-                    <div class="nk-block animated" data-animate="fadeInUp" data-delay=".4">
-                        <div class="row gutter-vr-40px justify-content-center">
-                            <div class="col-lg-4 col-md-6">
-                                <div class="feature-center card card-full round-lg shadow-none">
-                                    <div class="feature-icon feature-icon-lg feature-icon-lg-s2">
-                                        <img src="source/ic_nft_distrubuted.svg" alt="feature" />
+                    <div class="col-lg-8">
+                        <div class="row gutter-vr-40px gutter-100px">
+                            <div class="col-12 col-sm-6">
+                                <div class="feature feature-s12">
+                                    <div class="feature-icon feature-icon-sm m-lg-0">
+                                        <img class="community-icon" src="./source/ic_community_section_telegram.svg"
+                                             alt="telegram">
                                     </div>
-                                    <div class="feature-text feature-text-s8">
-                                        <h5>
-                                            NFT FOR DISTRIBUTED RIGHTS OF LEARNING
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div><!-- .col -->
-                            <div class="col-lg-4 col-md-6">
-                                <div class="feature-center card card-full round-lg shadow-none">
-                                    <div class="feature-icon feature-icon-lg feature-icon-lg-s2">
-                                        <img src="source/ic_letstarter.svg" alt="feature" />
-                                    </div>
-                                    <div class="feature-text feature-text-s8">
-                                        <h5>
-                                            LETSTARTER: FUNDRAISING PLATFORM
-                                        </h5>
+                                    <div class="feature-text mgt-s">
+                                        <h5>Telegram</h5>
+                                        <a target="_blank" href="https://t.me/letstudyus">t.me/letstudyus</a>
                                     </div>
                                 </div>
                             </div><!-- .col -->
-                            <div class="col-lg-4 col-md-6">
-                                <div class="feature-center card card-full round-lg shadow-none">
-                                    <div class="feature-icon feature-icon-lg feature-icon-lg-s2">
-                                        <img src="source/ic_letexchange.svg" alt="feature" />
+                            <div class="col-12 col-sm-6">
+                                <div class="feature feature-s12">
+                                    <div class="feature-icon feature-icon-sm m-lg-0">
+                                        <img class="community-icon" src="./source/ic_community_section_discord.svg"
+                                             alt="discord">
                                     </div>
-                                    <div class="feature-text feature-text-s8">
-                                        <h5>
-                                            LETEXCHANGE - DECENTRALIZED EXCHANGE
-                                        </h5>
+                                    <div class="feature-text mgt-s">
+                                        <h5>Discord</h5>
+                                        <a target="_blank"
+                                           href="https://discord.gg/RJSgUbCGBd">discord.gg/RJSgUbCGBd</a>
                                     </div>
                                 </div>
                             </div><!-- .col -->
-                        </div>
-                        <!-- .row -->
-                    </div><!-- .block @@ee -->
-                </div>
-            </section>
-
-            <section class="section bg-white">
-                <div class="container">
-                    <div class="row align-items-center gutter-vr-30px animated" data-animate="fadeInUp" data-delay=".4">
-                        <div class="col-lg-4">
-                            <h2 class="title">Meet the worldwide community</h2>
-                            <p>Join a fast-growing community of developers and innovators connected all over the world, building the new area of the internet.</p>
-                        </div>
-                        <!-- Block @@ss -->
-                        <div class="col-lg-8">
-                            <div class="row gutter-vr-40px gutter-100px">
-                                <div class="col-lg-6">
-                                    <div class="feature feature-s12">
-                                        <div class="feature-icon feature-icon-sm m-lg-0">
-                                            <img class="community-icon" src="./source/ic_community_section_telegram.svg" alt="telegram">
-                                        </div>
-                                        <div class="feature-text mgt-s">
-                                            <h5>Telegram</h5>
-                                            <a target="_blank" href="https://t.me/letstudyus">t.me/letstudyus</a>
-                                        </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="feature feature-s12">
+                                    <div class="feature-icon feature-icon-sm m-lg-0">
+                                        <img class="community-icon" src="./source/ic_community_section_facebook.svg"
+                                             alt="feature">
                                     </div>
-                                </div><!-- .col -->
-                                <div class="col-lg-6">
-                                    <div class="feature feature-s12">
-                                        <div class="feature-icon feature-icon-sm m-lg-0">
-                                            <img class="community-icon" src="./source/ic_community_section_discord.svg" alt="discord">
-                                        </div>
-                                        <div class="feature-text mgt-s">
-                                            <h5>Discord</h5>
-                                            <a target="_blank" href="https://discord.gg/RJSgUbCGBd">discord.gg/RJSgUbCGBd</a>
-                                        </div>
+                                    <div class="feature-text mgt-s">
+                                        <h5>Facebook</h5>
+                                        <a target="_blank" href="https://www.facebook.com/letstudycoin">facebook.com/letstudycoin</a>
                                     </div>
-                                </div><!-- .col -->
-                                <div class="col-lg-6">
-                                    <div class="feature feature-s12">
-                                        <div class="feature-icon feature-icon-sm m-lg-0">
-                                            <img class="community-icon" src="./source/ic_community_section_facebook.svg" alt="feature">
-                                        </div>
-                                        <div class="feature-text mgt-s">
-                                            <h5>Facebook</h5>
-                                            <a target="_blank" href="https://www.facebook.com/letstudycoin">facebook.com/letstudycoin</a>
-                                        </div>
-                                    </div>
-                                </div><!-- .col -->
-                                <div class="col-lg-6">
-                                    <div class="feature feature-s12">
-                                        <div class="feature-icon feature-icon-sm m-lg-0">
-                                            <img class="community-icon" src="./source/ic_community_section_medium.svg" alt="feature">
-                                        </div>
-                                        <div class="feature-text mgt-s">
-                                            <h5>Medium</h5>
-                                            <a target="_blank" href="https://letstudy.medium.com/">letstudy.medium.com</a>
-                                        </div>
-                                    </div>
-                                </div><!-- .col -->
-                                <div class="col-lg-6">
-                                    <div class="feature feature-s12">
-                                        <div class="feature-icon feature-icon-sm m-lg-0">
-                                            <img class="community-icon" src="./source/ic_community_section_twitter.svg" alt="feature">
-                                        </div>
-                                        <div class="feature-text mgt-s">
-                                            <h5>Twitter</h5>
-                                            <a target="_blank" href="https://twitter.com/letstudycoin">twitter.com/letstudycoin</a>
-                                        </div>
-                                    </div>
-                                </div><!-- .col -->
-                                <div class="col-lg-6">
-                                    <div class="feature feature-s12">
-                                        <div class="feature-icon feature-icon-sm m-lg-0">
-                                            <img class="community-icon" src="./source/ic_community_section_github.svg" alt="feature">
-                                        </div>
-                                        <div class="feature-text mgt-s">
-                                            <h5>Github</h5>
-                                            <a target="_blank" href="https://github.com/letstudyio">github.com/letstudyio</a>
-                                        </div>
-                                    </div>
-                                </div><!-- .col -->
-                            </div><!-- .row -->
-                        </div><!-- .block @@ss -->
-                    </div>
-                </div>
-            </section>
-
-            <section class="section section-contact bg-white ov-h" id="contact">
-                <div class="container">
-                    <!-- Block @@ss -->
-                    <div class="nk-block block-contact animated" data-animate="fadeInUp" data-delay=".4">
-                        <div class="row justify-content-center gutter-vr-30px">
-                            <div class="col-lg-6">
-                                <div class="gap-6x d-none d-lg-block"></div>
-                                <div class="gap-4x d-none d-lg-block"></div>
-                                <form id="contact-form-01" class="contact-form nk-form-submit" action="form/contact.php" method="post">
-                                    <h5 class="title-regular">Be the first to known the milestones of LetStudy.</h5>
-                                    <p>Get the latest announcement from LetStudy.</p>
-                                    <input type="text" class="d-none" name="form-anti-honeypot" value="">
-                                    <div class="row no-gutters">
-                                        <button onclick="location.href='https://t.me/letstudyus';" type="submit" class="btn btn-rg btn-grad btn-grad-alt mr-4 d-block align-items-center d-flex text-white">Subscribe Now</button>
-                                    </div>
-                                </form>
+                                </div>
                             </div><!-- .col -->
-                            <div class="col-lg-6">
-                                <div class="nk-block-img">
-                                    <img src="./source/contact_illustration.svg" alt="contact_illustration">
+                            <div class="col-12 col-sm-6">
+                                <div class="feature feature-s12">
+                                    <div class="feature-icon feature-icon-sm m-lg-0">
+                                        <img class="community-icon" src="./source/ic_community_section_medium.svg"
+                                             alt="feature">
+                                    </div>
+                                    <div class="feature-text mgt-s">
+                                        <h5>Medium</h5>
+                                        <a target="_blank" href="https://letstudy.medium.com/">letstudy.medium.com</a>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-12 col-sm-6">
+                                <div class="feature feature-s12">
+                                    <div class="feature-icon feature-icon-sm m-lg-0">
+                                        <img class="community-icon" src="./source/ic_community_section_twitter.svg"
+                                             alt="feature">
+                                    </div>
+                                    <div class="feature-text mgt-s">
+                                        <h5>Twitter</h5>
+                                        <a target="_blank" href="https://twitter.com/letstudycoin">twitter.com/letstudycoin</a>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-12 col-sm-6">
+                                <div class="feature feature-s12">
+                                    <div class="feature-icon feature-icon-sm m-lg-0">
+                                        <img class="community-icon" src="./source/ic_community_section_github.svg"
+                                             alt="feature">
+                                    </div>
+                                    <div class="feature-text mgt-s">
+                                        <h5>Github</h5>
+                                        <a target="_blank"
+                                           href="https://github.com/letstudyio">github.com/letstudyio</a>
+                                    </div>
                                 </div>
                             </div><!-- .col -->
                         </div><!-- .row -->
-                    </div><!-- .block @@ee -->
+                    </div><!-- .block @@ss -->
                 </div>
-            </section>
-        </main>
-        <footer class="nk-footer ov-h bg-footer">
-            <img alt="footer_bg_image" style="height: 125%; right: 0; top: -20%; position: absolute; " src="./source/footer_bg_image.svg">
-            <section class="section section-m section-footer tc-light bg-transparent pb-0 ov-h">
-                <div class="container">
-                    <!-- Block @@s -->
-                    <div class="nk-block block-footer mgb-m30">
-                        <div class="row justify-content-between">
-                            <div class="col-sm-4 mb-sm-0 col-6">
-                                <div style="display: flex; padding-left: 0" class="col-lg-12 col-md-12 col-sm-12 study-logo">
-                                    <img alt="letstudy light logo" style="width: 40px; margin-right: 10px" src="./source/light_logo.svg" alt="logo">
-                                    <h3 style="display: flex; justify-content: center; align-items: center">LetStudy</h3>
-                                </div>
+            </div>
+        </section>
+
+        <section class="section section-contact bg-white ov-h" id="contact">
+            <div class="container">
+                <!-- Block @@ss -->
+                <div class="nk-block block-contact animated" data-animate="fadeInUp" data-delay=".4">
+                    <div class="row justify-content-center gutter-vr-30px">
+                        <div class="col-sm-7 col-md-6 d-flex subscribing-container">
+                            <h5 class="title-regular">Be the first to known the milestones of <span
+                                    class="title-bold">LetStudy</span>.</h5>
+                            <p>Get the latest announcement from LetStudy.</p>
+                            <div class="mb-5 d-flex">
+                                <a class="btn btn-primary mr-4 d-block align-items-center d-flex text-white" target="_blank" href="https://t.me/letstudyus">Subscribe Now</a>
                             </div>
-                            <div class="col-sm-4 mb-sm-0 col-6 icon-space"></div>
-                            <div class="col-sm-2 mb-sm-0 col-6">
+                        </div><!-- .col -->
+                        <div class="col-sm-5 col-md-6 d-flex align-items-center justify-content-center">
+                            <div class="nk-block-img">
+                                <img src="./source/contact_illustration.svg" alt="contact_illustration" class="subscribing-img">
+                            </div>
+                        </div><!-- .col -->
+                    </div><!-- .row -->
+                </div><!-- .block @@ee -->
+            </div>
+        </section>
+    </main>
+    <footer class="nk-footer ov-h bg-footer">
+        <section class="section section-m section-footer tc-light bg-transparent pb-0 ov-h">
+            <div class="container">
+                <!-- Block @@s -->
+                <div class="nk-block block-footer mgb-m30">
+                    <div class="row footer-container">
+                        <div class="footer-left-group">
+                            <div class="col-lg-12 col-md-12 col-sm-12 logo study-logo">
+                                <img alt="letstudy logo"
+                                     src="./source/logo_text.svg" alt="logo">
+                            </div>
+                        </div>
+                        <div class="footer-right-group">
+                            <div class="footer-linklist-group">
                                 <div class="wgs wgs-menu animated" data-animate="fadeInUp" data-delay="0.1">
                                     <h6 style="color: white" class="wgs-title">PRODUCTS</h6>
                                     <div class="wgs-body">
                                         <ul class="wgs-links">
-                                            <li><a href="#why">Products</a></li>
+                                            <li><a href="#lettutor">Let Tutor</a></li>
+                                            <li><a href="#letlearn">Let Learn</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div><!-- .col -->
-                            <div class="col-sm-2 mb-sm-0 col-6">
+                            <div class="footer-linklist-group">
                                 <div class="wgs wgs-menu animated" data-animate="fadeInUp" data-delay="0.2">
                                     <h6 style="color: white" class="wgs-title">Roadmap</h6>
                                     <div class="wgs-body">
@@ -1166,79 +1424,76 @@
                                     </div>
                                 </div>
                             </div><!-- .col -->
-                            <div class="col-sm-2 mb-sm-0 col-6">
+                            <div class="footer-linklist-group">
                                 <div class="wgs wgs-menu animated" data-animate="fadeInUp" data-delay="0.3">
                                     <h6 style="color: white" class="wgs-title">ABOUT</h6>
                                     <div class="wgs-body">
                                         <ul class="wgs-links">
                                             <li><a href="#team">Our leaders</a></li>
                                             <li><a href="#benifits">Community</a></li>
-                                            <li><a href="#benifits">ICO Rating</a></li>
                                             <li><a href="https://t.me/letstudyus">Contact</a></li>
+                                            <li><a href="#">Term of Use</a></li>
+                                            <li><a href="#">Privacy Policy</a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div><!-- .col -->
-                            <div class="col-sm-2 mb-sm-0 col-6">
-                                <div class="wgs wgs-menu animated" data-animate="fadeInUp" data-delay="0.4">
-                                    <h6 style="color: white" class="wgs-title">SOCIALS</h6>
-                                    <div class="wgs-body">
-                                        <ul class="wgs-links">
-                                            <li class="row no-gutters">
-                                                <img alt="telegram" class="mgr-s .mg-s .mgx-s .mgl-s" src="./source/ic_footer_telegram.svg">
-                                                <a href="https://t.me/letstudyus">Telegram</a>
-                                            </li>
-                                            <li class="row no-gutters">
-                                                <img alt="facebook" class="mgr-s .mg-s .mgx-s .mgl-s" src="./source/ic_footer_facebook.svg">
-                                                <a href="https://www.facebook.com/letstudycoin">Facebook</a>
-                                            </li>
-                                            <li class="row no-gutters">
-                                                <img alt="twitter" class="mgr-s .mg-s .mgx-s .mgl-s" src="./source/ic_footer_twitter.svg">
-                                                <a href="https://twitter.com/letstudycoin">Twitter</a>
-                                            </li>
-                                            <li class="row no-gutters">
-                                                <img alt="discord" class="mgr-s .mg-s .mgx-s .mgl-s" src="./source/ic_footer_telegram.svg">
-                                                <a href="https://discord.gg/RJSgUbCGBd">Discord</a>
-                                            </li>
-                                            <li class="row no-gutters">
-                                                <img alt="github" class="mgr-s .mg-s .mgx-s .mgl-s" src="./source/ic_footer_discord.svg">
-                                                <a href="https://github.com/letstudyio">Github</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div><!-- .col -->
-                        </div><!-- .row -->
-                    </div><!-- .block @@e -->
-                </div>
-            </section>
-            <div class="section section-m footer-bottom animated" data-animate="fadeInUp" data-delay="0.5">
-                <div class="container">
-                    <div class="row justify-content-md-between align-items-center">
-                        <div class="col-lg-6 col-md-3 col-sm-4">
-                            <div class="copyright-text">
-                                <p>Copyright c 2021 LetStudy inc. All rights reserved</p>
-                            </div>
                         </div>
-                        <div class="col-lg-6 col-md-8">
-                            <div class="copyright-text">
-                                <p class="term-of-use">Term of Use & Privacy Policy</p>
-                            </div>
+
+                    </div><!-- .row -->
+                </div><!-- .block @@e -->
+            </div>
+        </section>
+        <div class="section footer-bottom">
+            <div class="container">
+                <div class="row justify-content-md-between align-items-center">
+                    <div class="col-12 col-md-6">
+                        <div class="copyright-text">
+                            <p>Copyright © 2021 LetStudy inc. All rights reserved</p>
                         </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <ul class="footer-social-media wgs-links">
+                            <li class="row no-gutters">
+                                <a href="https://t.me/letstudyus"><img alt="telegram" class="footer-social-media-icon"
+                                                                       src="./source/ic_footer_telegram.svg"></a>
+                            </li>
+                            <li class="row no-gutters">
+                                <a href="https://www.facebook.com/letstudycoin"><img alt="facebook"
+                                                                                     class="footer-social-media-icon"
+                                                                                     src="./source/ic_footer_facebook.svg"></a>
+                            </li>
+                            <li class="row no-gutters">
+                                <a href="https://twitter.com/letstudycoin"><img alt="twitter"
+                                                                                class="footer-social-media-icon"
+                                                                                src="./source/ic_footer_twitter.svg"></a>
+                            </li>
+                            <li class="row no-gutters">
+                                <a href="https://discord.gg/RJSgUbCGBd"><img alt="discord"
+                                                                             class="footer-social-media-icon"
+                                                                             src="./source/ic_footer_discord.svg"></a>
+                            </li>
+                            <li class="row no-gutters">
+                                <a href="https://github.com/letstudyio"><img alt="github"
+                                                                             class="footer-social-media-icon"
+                                                                             src="./source/ic_footer_github.svg"></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="nk-ovm shape-z7 ov-h"></div>
-        </footer>
-    </div>
+        </div>
+        <div class="nk-ovm shape-z7 ov-h"></div>
+    </footer>
+</div>
 
-    <div class="preloader"><span class="spinner spinner-round"></span></div>
+<div class="preloader"><span class="spinner spinner-round"></span></div>
 
-    <!-- JavaScript -->
-    <script src="assets/js/jquery.bundle.js?ver=1930"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/plyr.polyfilled.js"></script>
-    <script src="assets/js/scripts.js?ver=1930"></script>
-    <script src="assets/js/charts.js"></script>
+<!-- JavaScript -->
+<script src="assets/js/jquery.bundle.js?ver=1930"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/plyr.polyfilled.js"></script>
+<script src="assets/js/scripts.js?ver=1930"></script>
+<script src="assets/js/charts.js"></script>
 </body>
 </html>
