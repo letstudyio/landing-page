@@ -966,7 +966,7 @@ function getUrlParameter(sParam) {
         $("#students_enrolled").text(data.data.content.totalStudents || "_");
         $("#online_tutors").text(data.data.content.totalTutors || "_")
         $("#hours_studied").text(data.data.content.totalHours || "_")
-        $("#lettutor_revenue").text(numberWithCommas(data.data.content.revenue || "0"));
+        $("#lettutor_revenue").text(numberWithCommas((Number(data.data.content.revenue) || 0) + ''));
 
         const myData = []
         const registerByWeek = data.data.content.registerByWeek || [];
