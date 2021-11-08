@@ -957,6 +957,33 @@ function getUrlParameter(sParam) {
             }
         }]
       });
+
+      $.get("https://api.app.lettutor.com/product-stats/latest").done(function (data) {
+        if (!data) {
+          return;
+        }
+
+        $("#students_enrolled").text(data.data.content.totalStudents || "_");
+        $("#online_tutors").text(data.data.content.totalTutors || "_")
+        $("#hours_studied").text(data.data.content.totalHours || "_")
+        $("#lettutor_revenue").text(numberWithCommas(data.data.content.revenue || "0"));
+
+        const myData = []
+        const registerByWeek = data.data.content.registerByWeek || [];
+        for (let i = 0; i < registerByWeek.length; i++) {
+            let item = {};
+            item['key'] = registerByWeek[i].date;
+            item['value'] = +registerByWeek[i].total;
+            myData.push(item);
+        }
+
+        $('#let_tutor_stats_chart').simpleBarGraph({
+            data: myData,
+            height: '300px',
+            barsColor: '#0c3ddf'
+          });
+      });
+
       $('.slider-project-stats').slick({
         slidesToShow: 3,
         slidesToScroll: 1,

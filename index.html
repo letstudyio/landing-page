@@ -64,6 +64,7 @@
     <link rel="stylesheet" href="assets/css/theme.css?ver=1930">
     <link rel="stylesheet" href="assets/css/style-custom.css">
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css"/>
+    <link rel="stylesheet" href="assets/css/jquery.simple-bar-graph.min.css" />
 
     <link rel="canonical" href="http://letstudy.io">
 
@@ -143,8 +144,7 @@
             }
         }
 
-        .nk-banner:after {
-            content: ' ';
+        .nk-banner__inner_logo {
             background-image: url(source/hero_bg.png);
             background-size: cover;
             position: absolute;
@@ -378,203 +378,71 @@
         <!-- Banner @@ss -->
         <div class="header-banner ov-h header-banner-jasmine">
             <div class="nk-banner">
+                <div class="nk-banner__inner_logo"></div>
                 <div class="banner banner-fs banner-single">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-lg-6">
-                                <div class="banner-caption text-center">
-                                    <h1 class="title pr-md-4 text-white"><span class="text-pink font-weight-bold">LETSTUDY PLATFORM</span><br
-                                            class="d-xl-block">BLOCKCHAIN-BASED ONLINE EDUCATION</h1>
-                                    <div class="fs-lg">
-                                        The LetStudy platform is a blockchain-based decentralized education service
-                                        platform.
-                                        The main purpose of LetStudy is to create an ecosystem on blockchain to improve
-                                        the
-                                        educational area, especially after the Covid pandemic.
-                                    </div>
-                                    <div class="cpn-action">
-                                        <div class="mb-5">
-                                            <a class="btn btn-primary mr-2" target="_blank"
-                                               href="https://t.me/letstudyus">TELEGRAM</a>
-                                            <a class="btn btn-light" target="_blank"
-                                               href="whitepaper.pdf">WHITEPAPER</a>
-                                        </div>
-                                    </div>
-                                    <ul class="cpn-links text-center">
-                                        <li>
-                                            <a class="link link-primary" target="_blank" href="https://t.me/letstudyus">
-                                                <em class="link-icon icon-square">
-                                                    <img alt="letstudy community telegram"
-                                                         src="source/ic_lsy_letstudy_community_telegram.svg"/>
-                                                </em>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="link link-primary" target="_blank"
-                                               href="https://www.facebook.com/letstudycoin">
-                                                <em class="link-icon icon-square">
-                                                    <img alt="letstudy community facebook"
-                                                         src="source/ic_lsy_letstudy_community_facebook.svg"/>
-                                                </em>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="link link-primary video-play" target="_blank"
-                                               href="https://twitter.com/letstudycoin">
-                                                <em class="link-icon icon-square ">
-                                                    <img alt="letstudy community twitter"
-                                                         src="source/ic_lsy_letstudy_community_twitter.svg"/>
-                                                </em>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="link link-primary" target="_blank"
-                                               href="https://discord.gg/RJSgUbCGBd">
-                                                <em class="link-icon icon-square">
-                                                    <img alt="letstudy community discord"
-                                                         src="source/ic_lsy_letstudy_community_discord.svg"/>
-                                                </em>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="link link-primary" target="_blank"
-                                               href="https://letstudy.medium.com/">
-                                                <em class="link-icon icon-square ">
-                                                    <img alt="letstudy community medium"
-                                                         src="source/ic_lsy_letstudy_community_medium.svg"/>
-                                                </em>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="link link-primary video-play" target="_blank"
-                                               href="https://github.com/letstudyio">
-                                                <em class="link-icon icon-square ">
-                                                    <img alt="letstudy community github"
-                                                         src="source/ic_lsy_letstudy_community_github.svg"/>
-                                                </em>
-                                            </a>
-                                        </li>
-                                    </ul>
+                    <div class="container pt-25vh">
+                        <div class="banner-caption text-center">
+                            <h1 class="title pr-md-4 text-white"><span class="text-pink font-weight-bold">LETSTUDY PLATFORM</span><br class="d-xl-block">BLOCKCHAIN-BASED ONLINE EDUCATION</h1>
+                            <div class="fs-lg">
+                                The LetStudy platform is a blockchain-based decentralized education service platform.
+                                The main purpose of LetStudy is to create an ecosystem on blockchain to improve the
+                                educational area, especially after the Covid pandemic.
+                            </div>
+                            <div class="cpn-action">
+                                <div class="mb-5">
+                                    <a class="btn btn-rg btn-grad btn-grad-alt mr-2" target="_blank" href="https://t.me/letstudyus">TELEGRAM</a>
+                                    <a class="btn btn-light btn-rg btn-grad" target="_blank" href="whitepaper.pdf">WHITEPAPER</a>
                                 </div>
                             </div>
-                            <div class="col-12 col-lg-6">
-                                <div class="project-info">
-                                    <div class="project-tab__nav">
-                                        <span class="project-dot"></span>
-                                        <span class="project-dot"></span>
-                                        <span class="project-dot project-dot-last"></span>
-                                        <ul class="nav nav-pills pills-header flex-nowrap swiper-wrapper"
-                                            role="tablist">
-
-                                            <li class="nav-item">
-                                                <a class="project-tab__link active text-center mx-auto"
-                                                   data-toggle="pill"
-                                                   href="#pills-lettutor" role="tab" aria-controls="pills-lettutor"
-                                                   aria-selected="false">
-                                                    <p class="project-tab__title">Let Tutor</p>
-                                                </a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="project-tab__link text-center mx-auto" data-toggle="pill"
-                                                   href="#pills-letlearn" role="tab" aria-controls="pills-letlearn"
-                                                   aria-selected="false">
-                                                    <p class="project-tab__title">Let Learn</p>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="tab-content project-tab__content">
-                                        <div class="project-tab__pane tab-pane active show" id="pills-lettutor"
-                                             role="tabpanel"
-                                             aria-labelledby="pills-lettutor-tab">
-                                            <h4 class="project__title">Let Tutor - Online Tutoring System</h4>
-                                            <div class="project-stats-row project-stats-mobile">
-                                                <div class="project-stats-item">
-                                                    <div class="project-stats-box highlighted">
-                                                        <img class="project-stats-img"
-                                                             src="assets/images/ic_total.svg"/>
-                                                        <div class="project-stats-info">Total Gain
-                                                            <div class="project-stats-value">
-                                                                $
-                                                                <span>1,000.00</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="project-stats-item">
-                                                    <div class="project-stats-box highlighted">
-                                                        <img class="project-stats-img"
-                                                             src="assets/images/ic_sessions.svg"/>
-                                                        <div class="project-stats-info">Total sessions
-                                                            <div class="project-stats-value">
-                                                                2324
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="project-stats-row slider-project-stats">
-                                                <div class="project-stats-item slide">
-                                                    <div class="project-stats-box">
-                                                        <div class="project-stats-info">Bookings
-                                                            <div class="project-stats-value">
-                                                                3221
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="project-stats-item slide">
-                                                    <div class="project-stats-box">
-                                                        <div class="project-stats-info">Hours studied
-                                                            <div class="project-stats-value">
-                                                                3452
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="project-stats-item slide">
-                                                    <div class="project-stats-box">
-                                                        <div class="project-stats-info">Members
-                                                            <div class="project-stats-value">
-                                                                1301
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="project-stats-item slide">
-                                                    <div class="project-stats-box">
-                                                        <div class="project-stats-info">Teachers
-                                                            <div class="project-stats-value">
-                                                                101
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="project-stats-item slide">
-                                                    <div class="project-stats-box">
-                                                        <div class="project-stats-info">Student Paid
-                                                            <div class="project-stats-value">
-                                                                $2,000.00
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="project-tab__pane tab-pane" id="pills-letlearn" role="tabpanel"
-                                             aria-labelledby="pills-lettutor-tab">
-                                            <div class="project-stats-box height-200 d-flex justify-content-center align-items-center">
-                                                <h5>Coming Soon</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="embed-container">
-                                    <div class="plyr__video-embed" id="player">
-                                        <iframe width="560" height="315"
-                                                src="https://www.youtube.com/embed/t8of8bZ45W8?autoplay=1&rel=0&loop=1"
-                                                frameborder="0"></iframe>
-                                    </div>
+                            <ul class="cpn-links text-center">
+                                <li>
+                                    <a class="link link-primary" target="_blank" href="https://t.me/letstudyus">
+                                        <em class="link-icon icon-square">
+                                            <img alt="letstudy community telegram" src="source/ic_lsy_letstudy_community_telegram.svg" />
+                                        </em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="link link-primary" target="_blank" href="https://www.facebook.com/letstudycoin">
+                                        <em class="link-icon icon-square">
+                                            <img alt="letstudy community facebook" src="source/ic_lsy_letstudy_community_facebook.svg" />
+                                        </em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="link link-primary video-play" target="_blank" href="https://twitter.com/letstudycoin">
+                                        <em class="link-icon icon-square ">
+                                            <img alt="letstudy community twitter" src="source/ic_lsy_letstudy_community_twitter.svg" />
+                                        </em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="link link-primary" target="_blank" href="https://discord.gg/RJSgUbCGBd">
+                                        <em class="link-icon icon-square">
+                                            <img alt="letstudy community discord" src="source/ic_lsy_letstudy_community_discord.svg" />
+                                        </em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="link link-primary" target="_blank" href="https://letstudy.medium.com/">
+                                        <em class="link-icon icon-square ">
+                                            <img alt="letstudy community medium" src="source/ic_lsy_letstudy_community_medium.svg" />
+                                        </em>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="link link-primary video-play" target="_blank" href="https://github.com/letstudyio">
+                                        <em class="link-icon icon-square ">
+                                            <img alt="letstudy community github" src="source/ic_lsy_letstudy_community_github.svg" />
+                                        </em>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="p-3 p-lg-5">
+                            <div class="embed-container">
+                                <div class="plyr__video-embed" id="player">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/t8of8bZ45W8?autoplay=1&rel=0&loop=1" frameborder="0"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -641,6 +509,40 @@
                     <!-- .row -->
                 </div><!-- .block @@ee -->
             </div>
+        </section>
+
+        <section class="section" id="project-info">
+            <div class="container">
+                <div class="stats_box row">
+                    <div class="col-12 col-md-6 mb-4 d-flex flex-column">
+                        <h3 class="mb-4"><span class="primary-highlighted">Online Tutoring Platform</span> Performance</h3>
+                        <div class="sb__grid flex-fill">
+                            <div class="sb__grid_item animated" data-animate="fadeInLeft" data-delay=".1">
+                                <div class="sbg__item_label">STUDENTS ENROLLED</div>
+                                <div class="sbg__item_value" id="students_enrolled">0</div>
+                            </div>
+                            <div class="sb__grid_item animated" data-animate="fadeInRight" data-delay=".1">
+                                <div class="sbg__item_label">ONLINE TUTORS</div>
+                                <div class="sbg__item_value" id="online_tutors">0</div>
+                            </div>
+                            <div class="sb__grid_item animated" data-animate="fadeInLeft" data-delay=".2">
+                                <div class="sbg__item_label">HOURS STUDIED</div>
+                                <div class="sbg__item_value" id="hours_studied">0</div>
+                            </div>
+                            <div class="sb__grid_item animated" data-animate="fadeInRight" data-delay=".2">
+                                <div class="sbg__item_label">REVENUE (VND)</div>
+                                <div class="sbg__item_value" id="lettutor_revenue">0</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 mb-4">
+                        <strong class="my-4">NEW STUDENTS ENROLLED WEEK BY WEEK SO FAR</strong>
+                        <div class="sb__chart_inner" id='let_tutor_stats_chart'></div>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
         <section id='lettutor' class='section position-relative overflow-hidden'>
@@ -1446,7 +1348,7 @@
         </section>
         <div class="section footer-bottom">
             <div class="container">
-                <div class="row justify-content-md-between align-items-center">
+                <div class="row justify-content-md-between align-items-center pb-3">
                     <div class="col-12 col-md-6">
                         <div class="copyright-text">
                             <p>Copyright © 2021 LetStudy inc. All rights reserved</p>
@@ -1493,6 +1395,7 @@
 <script src="assets/js/jquery.bundle.js?ver=1930"></script>
 <script src="assets/js/slick.min.js"></script>
 <script src="assets/js/plyr.polyfilled.js"></script>
+<script src="assets/js/jquery.simple-bar-graph.js"></script>
 <script src="assets/js/scripts.js?ver=1930"></script>
 <script src="assets/js/charts.js"></script>
 </body>
