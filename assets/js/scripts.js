@@ -970,7 +970,7 @@ function getUrlParameter(sParam) {
 
         const myData = []
         const registerByWeek = data.data.content.registerByWeek || [];
-        for (let i = 0; i < registerByWeek.length; i++) {
+        for (let i = registerByWeek.length - 1; i > 0; i--) {
             let item = {};
             item['key'] = registerByWeek[i].date;
             item['value'] = +registerByWeek[i].total;
@@ -978,7 +978,7 @@ function getUrlParameter(sParam) {
         }
 
         $('#let_tutor_stats_chart').simpleBarGraph({
-            data: myData,
+            data: myData.slice(0, 10),
             height: '300px',
             barsColor: '#0c3ddf'
           });

@@ -65,7 +65,7 @@
         text: maxValue
       })));
       while (rowsIterator > 0) {
-        currentValue = parseInt(rowStepValue * rowsIterator * 10) / 10;
+        currentValue = Math.round(parseInt(rowStepValue * rowsIterator * 10) / 10);
         rows.append($('<div/>', {
           "class": 'simple-bar-graph__row',
           css: {
