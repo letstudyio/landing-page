@@ -62,7 +62,7 @@
         }
       }).append($('<div/>', {
         "class": 'simple-bar-graph__value',
-        text: maxValue
+        text: Math.round(maxValue)
       })));
       while (rowsIterator > 0) {
         currentValue = Math.round(parseInt(rowStepValue * rowsIterator * 10) / 10);
@@ -119,7 +119,7 @@
         if (popups) {
           bar.append($('<div/>', {
             "class": 'simple-bar-graph__popup',
-            text: data[columnsIterator].key + ' - ' + data[columnsIterator].value
+            text: data[columnsIterator].key + ' - ' + Math.round(data[columnsIterator].value)
           }));
         }
         methods.bindBar(bar);

@@ -454,6 +454,54 @@
     </header>
 
     <main class="nk-pages">
+        <section class="section" id="pancakeswap">
+            <div class="container pt-5">
+                <div class="mt-5 text-center animated" data-animate="fadeInUp" data-delay=".1">
+                    <h2>We're pre-listed on</h2>
+                    <div class="flex-center">
+                        <a href="https://pancakeswap.finance/swap?outputCurrency=0x4e854046de30fff5af42a1df55e937fba02a7094" target="_blank">
+                            <div class="pancakeswap_link shape-p-bg">
+                                <img class="pancakeswap" src="./source/pancakeswap.png" alt="pancakeswap">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="pcsw_charts">
+                    <div class="tab-wrap">
+                        <input type="radio" id="tab1" name="tabGroup1" class="tab" checked>
+                        <label for="tab1">
+                            <div class="pcsw_stat">
+                                <div class="pcsws__label">Price</div>
+                                <div class="d-flex align-items-baseline">
+                                    <div class="pcsws__value" id="pcsw_price_usd"></div>
+                                    <div class="pcsws__change" id="pcsw_price_usd_change"></div>
+                                </div>
+                            </div>
+                        </label>
+
+                        <input type="radio" id="tab2" name="tabGroup1" class="tab">
+                        <label for="tab2">
+                            <div class="pcsw_stat">
+                                <div class="pcsws__label">Liquidity</div>
+                                <div class="d-flex align-items-baseline">
+                                    <div class="pcsws__value" id="pcsw_liquidity"></div>
+                                    <div class="pcsws__change" id="pcsw_liquidity_change"></div>
+                                </div>
+                            </div>
+                        </label>
+
+                        <div class="tab__content">
+                            <div id="pcsw_price_chart"></div>
+                        </div>
+
+                        <div class="tab__content">
+                            <div id="pcsw_liquidity_chart"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="section" id="why">
             <div class="container">
                 <div class="section-head section-head-s9">
@@ -621,7 +669,7 @@
                                 <div class="sbg__item_value" id="hours_studied">0</div>
                             </div>
                             <div class="sb__grid_item animated" data-animate="fadeInRight" data-delay=".2">
-                                <div class="sbg__item_label">REVENUE (VND)</div>
+                                <div class="sbg__item_label">REVENUE</div>
                                 <div class="sbg__item_value" id="lettutor_revenue">0</div>
                             </div>
                         </div>
@@ -1393,6 +1441,7 @@
 <script src="assets/js/slick.min.js"></script>
 <script src="assets/js/plyr.polyfilled.js"></script>
 <script src="assets/js/jquery.simple-bar-graph.js"></script>
+<script src="assets/js/lightweight-charts.js"></script>
 <script src="assets/js/scripts.js?ver=1930"></script>
 <script src="assets/js/charts.js"></script>
 </body>
