@@ -460,7 +460,7 @@ h6, .h6, .fz-6 { font-size: 0.94rem; }
 
 .tc-alternet, .tc-alternet a { color: #223b55 !important; }
 
-.tc-primary, .tc-primary a { color: #16a1ff !important; }
+.tc-primary, .tc-primary a { color: #0071F0 !important; }
 
 .tc-primary a:hover { color: #2b56f5 !important; }
 
@@ -1906,7 +1906,7 @@ hr { position: relative; z-index: 5; }
 
 .btn-play-wrap-s2 .btn-play-text { margin-left: 0; margin-top: 15px; }
 
-.btn-link { color: #16a1ff; text-decoration: none; }
+.btn-link { color: #0071F0; text-decoration: none; }
 
 .btn-link:hover, .btn-link:focus { color: #16a1ff; text-decoration: none; box-shadow: 0 1px 0 currentColor; }
 
@@ -4147,7 +4147,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .section-head.tc-light p { color: #6a7894; }
 
-.section-head .title { font-weight: 500; }
+.section-head .title { font-weight: 600; }
 
 .section-head .title-thin { font-weight: 300; }
 
@@ -4697,9 +4697,9 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .roadmap-s1-alt.roadmap-current:before { left: 0px; border-left-width: 3px; border-left-style: solid; }
 
-.roadmap-s1.roadmap-done:before, .roadmap-s1.roadmap-done:after { border-color: #16a1ff; }
+.roadmap-s1.roadmap-done:before, .roadmap-s1.roadmap-done:after { border-color: #3F4DAF; }
 
-.roadmap-s1.roadmap-current:before { border-color: #16a1ff; }
+.roadmap-s1.roadmap-current:before { border-color: #3F4DAF; }
 
 .roadmap-s2 { text-align: center; }
 
@@ -4927,17 +4927,17 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .tc-light .roadmap-time { color: rgba(255, 255, 255, 0.8); }
 
-.roadmap-time-s1 { padding-bottom: 27px; line-height: 26px; width: 100%; display: inline-block; font-weight: 700; font-size: 0.81rem; position: relative; color: #8ca2e5; line-height: 25px; }
+.roadmap-time-s1 { padding-bottom: 27px; line-height: 26px; width: 100%; display: inline-block; font-weight: 700; font-size: 1rem; position: relative; color: #3F4DAF; line-height: 25px; }
 
 .roadmap-time-s1:after, .roadmap-time-s1:before { position: absolute; content: ""; left: -24px; border-radius: 50%; }
 
-.roadmap-time-s1:after { bottom: -2px; width: 11px; height: 11px; margin-left: -5.5px; margin-top: -5.5px; background: #16a1ff; }
+.roadmap-time-s1:after { bottom: -2px; width: 11px; height: 11px; margin-left: -5.5px; margin-top: -5.5px; background: #3F4DAF; }
 
 .tc-light .roadmap-time-s1:after { background: #fff; }
 
 .roadmap-time-s1:before { bottom: -10px; width: 27px; height: 27px; margin-left: -13.5px; margin-top: -13.5px; }
 
-.roadmap-done .roadmap-time-s1:before, .roadmap-current .roadmap-time-s1:before { background: rgba(22, 161, 255, 0.23); }
+.roadmap-done .roadmap-time-s1:before, .roadmap-current .roadmap-time-s1:before { background: rgba(63, 77, 175, 0.23); }
 
 .tc-light .roadmap-done .roadmap-time-s1:before, .tc-light .roadmap-current .roadmap-time-s1:before { background: rgba(255, 255, 255, 0.1); }
 
@@ -5130,7 +5130,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .roadmap-step-s3:after { left: 50%; width: 2px; }
   .roadmap-step-s5 { padding-top: 0; padding-bottom: 0; }
   .roadmap-head { margin-bottom: 15px; }
-  .roadmap-time { font-size: 14px; }
+  .roadmap-time { font-size: 16px; }
   .roadmap-time-s1:after { left: 50%; bottom: 5px; }
   .roadmap-time-s1:before { bottom: -2px; left: 50%; }
   .roadmap-time-s3 { font-size: .87rem; font-weight: 600; }
@@ -5944,7 +5944,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .copyright-text-s4 p { font-size: 0.9rem !important; }
 
-.copyright-text li a, .copyright-text p { font-size: 13px; color: #fff; }
+.copyright-text li a, .copyright-text p, .term-of-use p { font-size: 13px; color: #fff; }
 
 .copyright-text li { width: 100%; }
 
@@ -5963,6 +5963,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 @media (min-width: 576px) { .copyright-text-s2 { font-size: 12px; }
   .copyright-text li { width: auto; } }
 
+.wgs-nl-title { margin-bottom: 32px; }
 .wgs-nl-title { margin-bottom: 32px; }
 
 /** 04.14 Others */
